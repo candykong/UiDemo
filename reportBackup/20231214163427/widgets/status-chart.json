@@ -1,0 +1,361 @@
+[ {
+  "uid" : "6c3c1383e6d03345",
+  "name" : "test_tableHeaders[casedata0]",
+  "time" : {
+    "start" : 1702542780112,
+    "stop" : 1702542780178,
+    "duration" : 66
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2684a66edd70a366",
+  "name" : "test_search[casedata0]",
+  "time" : {
+    "start" : 1702542817512,
+    "stop" : 1702542817512,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6739da30efd8276a",
+  "name" : "test_parentMenus[casedata0]",
+  "time" : {
+    "start" : 1702542765082,
+    "stop" : 1702542766085,
+    "duration" : 1003
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "5c6419e46f083d8e",
+  "name" : "test_searchApplytime[casedata0]",
+  "time" : {
+    "start" : 1702542779027,
+    "stop" : 1702542780098,
+    "duration" : 1071
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "67d7a495e4e685af",
+  "name" : "test_searchReset[casedata0]",
+  "time" : {
+    "start" : 1702542780184,
+    "stop" : 1702542785854,
+    "duration" : 5670
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "69534a09b3f25ad4",
+  "name" : "test_toCustomerDetail[casedata0]",
+  "time" : {
+    "start" : 1702542818927,
+    "stop" : 1702542818927,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "cb7a8a14b7776caf",
+  "name" : "test_searchReset[casedata1]",
+  "time" : {
+    "start" : 1702542785864,
+    "stop" : 1702542786131,
+    "duration" : 267
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e22df2c1ce12f7c",
+  "name" : "test_subMenus[casedata4]",
+  "time" : {
+    "start" : 1702542769466,
+    "stop" : 1702542770123,
+    "duration" : 657
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d1fa802d7f49cf4e",
+  "name" : "test_title[casedata0]",
+  "time" : {
+    "start" : 1702542813988,
+    "stop" : 1702542813988,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9d75e1ef3fdf167",
+  "name" : "test_baseQuery[casedata0]",
+  "time" : {
+    "start" : 1702542817015,
+    "stop" : 1702542817015,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2331f1f4d6aaec1a",
+  "name" : "test_subMenus[casedata1]",
+  "time" : {
+    "start" : 1702542850822,
+    "stop" : 1702542850822,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "308c3568e4ba2ce3",
+  "name" : "test_searchReset[casedata0]",
+  "time" : {
+    "start" : 1702542818585,
+    "stop" : 1702542818585,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5f1b3e25b7a51951",
+  "name" : "test_searchDqjdOptions[casedata0]",
+  "time" : {
+    "start" : 1702542817861,
+    "stop" : 1702542817861,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "872a2e81641dc5f4",
+  "name" : "test_subMenus[casedata2]",
+  "time" : {
+    "start" : 1702542767755,
+    "stop" : 1702542768687,
+    "duration" : 932
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cd30cfdd8052ef7d",
+  "name" : "test_subMenus[casedata0]",
+  "time" : {
+    "start" : 1702542850804,
+    "stop" : 1702542850804,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5d2e91b41f6cb301",
+  "name" : "test_searchReset[casedata1]",
+  "time" : {
+    "start" : 1702542818706,
+    "stop" : 1702542818706,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4166ca1dc65cf5b9",
+  "name" : "test_searchDqjdOptions[casedata0]",
+  "time" : {
+    "start" : 1702542777635,
+    "stop" : 1702542779005,
+    "duration" : 1370
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "77f8126d562d3c3d",
+  "name" : "test_title[casedata0]",
+  "time" : {
+    "start" : 1702542773871,
+    "stop" : 1702542775519,
+    "duration" : 1648
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b5603c5352c6f943",
+  "name" : "test_subMenus[casedata3]",
+  "time" : {
+    "start" : 1702542768703,
+    "stop" : 1702542769459,
+    "duration" : 756
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "14202ce48ac811b",
+  "name" : "test_searchOverTimeStatusOptions[casedata0]",
+  "time" : {
+    "start" : 1702542817979,
+    "stop" : 1702542817979,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "60eff8ac1ec3473",
+  "name" : "test_subMenus[casedata0]",
+  "time" : {
+    "start" : 1702542766421,
+    "stop" : 1702542766950,
+    "duration" : 529
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "62969bd5e4bc443",
+  "name" : "test_accountInfo[casedata0]",
+  "time" : {
+    "start" : 1702542764131,
+    "stop" : 1702542765068,
+    "duration" : 937
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "60006d6d78e6226f",
+  "name" : "test_baseQuery[casedata0]",
+  "time" : {
+    "start" : 1702542775527,
+    "stop" : 1702542775740,
+    "duration" : 213
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2b7bc9f66b0b8a6",
+  "name" : "test_parentMenus[casedata0]",
+  "time" : {
+    "start" : 1702542850781,
+    "stop" : 1702542850781,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b36071055540a0e4",
+  "name" : "test_searchCustomerOptions[casedata0]",
+  "time" : {
+    "start" : 1702542817650,
+    "stop" : 1702542817650,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f9b08d5fa80203ee",
+  "name" : "test_check_title[casedata0]",
+  "time" : {
+    "start" : 1702542741562,
+    "stop" : 1702542758105,
+    "duration" : 16543
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "49d0791e73e9d513",
+  "name" : "test_search[casedata0]",
+  "time" : {
+    "start" : 1702542776018,
+    "stop" : 1702542776687,
+    "duration" : 669
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "33c39266b358e3ef",
+  "name" : "test_toCustomerDetail[casedata0]",
+  "time" : {
+    "start" : 1702542786143,
+    "stop" : 1702542811472,
+    "duration" : 25329
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "9d2b5e2090144693",
+  "name" : "test_check_title[casedata1]",
+  "time" : {
+    "start" : 1702542758119,
+    "stop" : 1702542761024,
+    "duration" : 2905
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2232a2f41bb8727",
+  "name" : "test_tableHeaders[casedata0]",
+  "time" : {
+    "start" : 1702542818460,
+    "stop" : 1702542818460,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "7c4992a28efcac10",
+  "name" : "test_subMenus[casedata5]",
+  "time" : {
+    "start" : 1702542770130,
+    "stop" : 1702542770132,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a818cb4e00c57802",
+  "name" : "test_searchApplytime[casedata0]",
+  "time" : {
+    "start" : 1702542818296,
+    "stop" : 1702542818296,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "dbaea92fa6fd4ba1",
+  "name" : "test_subMenus[casedata1]",
+  "time" : {
+    "start" : 1702542766959,
+    "stop" : 1702542767738,
+    "duration" : 779
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "9315999a2dc6cf90",
+  "name" : "test_login[casedata0]",
+  "time" : {
+    "start" : 1702542692504,
+    "stop" : 1702542716494,
+    "duration" : 23990
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9f7438a381f89160",
+  "name" : "test_accountInfo[casedata0]",
+  "time" : {
+    "start" : 1702542819051,
+    "stop" : 1702542819051,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "359eb21cab11d220",
+  "name" : "test_searchCustomerOptions[casedata0]",
+  "time" : {
+    "start" : 1702542776695,
+    "stop" : 1702542777623,
+    "duration" : 928
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

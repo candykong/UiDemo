@@ -1,0 +1,15 @@
+[2023-12-14 16:21:13,412] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_fhxxcx001 ; 测试点-> 复核信息查询列表标题
+[2023-12-14 16:21:14,869] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_fhxxcx002 ; 测试点-> 基础查询输入框
+[2023-12-14 16:21:15,551] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_fhxxcx003 ; 测试点-> 高级搜索字段名称
+[2023-12-14 16:21:15,853] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_fhxxcx004 ; 测试点-> 高级搜索-客户群体下拉框
+[2023-12-14 16:21:17,445] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_fhxxcx005 ; 测试点-> 高级搜索-调查状态下拉框
+[2023-12-14 16:21:18,258] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_fhxxcx006 ; 测试点-> 高级搜索-超时状态下拉框
+[2023-12-14 16:21:18,912] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_fhxxcx007 ; 测试点-> 高级搜索-开始时间和结束时间默认值
+[2023-12-14 16:21:19,825] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_fhxxcx008 ; 测试点-> 列表表头字段检查
+[2023-12-14 16:21:19,885] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_fhxxcx009_1 ; 测试点-> 搜索按钮检查
+[2023-12-14 16:21:25,361] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_fhxxcx009_2 ; 测试点-> 重置按钮检查
+[2023-12-14 16:21:25,644] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_fhxxcx010 ; 测试点-> 点击客户姓名进入对应客户详情页
+[2023-12-14 16:21:34,495] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_ned001.1 ; 测试点-> 首页个人信息
+[2023-12-14 16:21:35,195] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_ned002.1 ; 测试点-> 父菜单校验
+[2023-12-14 16:21:35,369] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_ned001.1 ; 测试点-> 进件管理子菜单校验
+[2023-12-14 16:21:36,173] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_ned001.2 ; 测试点-> 贷款审批管理子菜单校验

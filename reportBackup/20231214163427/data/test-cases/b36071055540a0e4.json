@@ -1,0 +1,138 @@
+{
+  "uid" : "b36071055540a0e4",
+  "name" : "test_searchCustomerOptions[casedata0]",
+  "fullName" : "testCase.test_01_sbed.test_01_jjgl.test_02_fhxxcx.Test_fhxxcx#test_searchCustomerOptions",
+  "historyId" : "19ea0f4231a131fd365b543521b991a4",
+  "time" : {
+    "start" : 1702542817650,
+    "stop" : 1702542817650,
+    "duration" : 0
+  },
+  "description" : "\n        检查客户群体下拉选项是否完整\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    检查客户群体下拉选项是否完整\n    :return:\n</code></pre>\n",
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.JavascriptException: Message: javascript error: Cannot read properties of undefined (reading 'click')\n  (Session info: chrome=115.0.5790.114)\nStacktrace:\n0   chromedriver                        0x0000000104ab86b8 chromedriver + 4937400\n1   chromedriver                        0x0000000104aafb73 chromedriver + 4901747\n2   chromedriver                        0x000000010466d616 chromedriver + 435734\n3   chromedriver                        0x0000000104672adf chromedriver + 457439\n4   chromedriver                        0x00000001046759bf chromedriver + 469439\n5   chromedriver                        0x00000001046f0bce chromedriver + 973774\n6   chromedriver                        0x00000001046d5012 chromedriver + 860178\n7   chromedriver                        0x00000001046efe76 chromedriver + 970358\n8   chromedriver                        0x00000001046d4de3 chromedriver + 859619\n9   chromedriver                        0x00000001046a2d7f chromedriver + 654719\n10  chromedriver                        0x00000001046a40de chromedriver + 659678\n11  chromedriver                        0x0000000104a742ad chromedriver + 4657837\n12  chromedriver                        0x0000000104a79130 chromedriver + 4677936\n13  chromedriver                        0x0000000104a7fdef chromedriver + 4705775\n14  chromedriver                        0x0000000104a7a05a chromedriver + 4681818\n15  chromedriver                        0x0000000104a4c92c chromedriver + 4495660\n16  chromedriver                        0x0000000104a97838 chromedriver + 4802616\n17  chromedriver                        0x0000000104a979b7 chromedriver + 4802999\n18  chromedriver                        0x0000000104aa899f chromedriver + 4872607\n19  libsystem_pthread.dylib             0x00007fff203788fc _pthread_start + 224\n20  libsystem_pthread.dylib             0x00007fff20374443 thread_start + 15",
+  "statusTrace" : "self = <test_02_fhxxcx.Test_fhxxcx object at 0x10be6dcd0>, request = <SubRequest 'setup' for <Function test_title[casedata0]>>\n\n    @pytest.fixture(scope=\"class\", autouse=True)\n    def setup(self,request):\n        # 进入社保e贷-进件管理-复核信息查询页面\n        self.driver(request)\n        applyCentor = ApplyCentor(self.driver)\n        sbed = Sbed(self.driver)\n        fhxxcx = Fhxxcx(self.driver)\n        applyCentor.to_sbed_apply()\n>       sbed.jjgl_Menu_click()\n\ntestcase/test_01_sbed/test_01_jjgl/test_02_fhxxcx.py:39: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npageObj/sbed/sbed_page.py:123: in jjgl_Menu_click\n    self.script(src,element)\npageObj/base.py:125: in script\n    return self.driver.execute_script(src)\n/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py:491: in execute_script\n    return self.execute(command, {\n/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py:428: in execute\n    self.error_handler.check_response(response)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x10bf37a60>\nresponse = {'status': 500, 'value': '{\"value\":{\"error\":\"javascript error\",\"message\":\"javascript error: Cannot read properties of ...fff203788fc _pthread_start + 224\\\\n20  libsystem_pthread.dylib             0x00007fff20374443 thread_start + 15\\\\n\"}}'}\n\n    def check_response(self, response: Dict[str, Any]) -> None:\n        \"\"\"\n        Checks that a JSON response from the WebDriver does not have an error.\n    \n        :Args:\n         - response - The JSON response from the WebDriver server as a dictionary\n           object.\n    \n        :Raises: If the response contains an error message.\n        \"\"\"\n        status = response.get('status', None)\n        if not status or status == ErrorCode.SUCCESS:\n            return\n        value = None\n        message = response.get(\"message\", \"\")\n        screen: str = response.get(\"screen\", \"\")\n        stacktrace = None\n        if isinstance(status, int):\n            value_json = response.get('value', None)\n            if value_json and isinstance(value_json, str):\n                import json\n                try:\n                    value = json.loads(value_json)\n                    if len(value.keys()) == 1:\n                        value = value['value']\n                    status = value.get('error', None)\n                    if not status:\n                        status = value.get(\"status\", ErrorCode.UNKNOWN_ERROR)\n                        message = value.get(\"value\") or value.get(\"message\")\n                        if not isinstance(message, str):\n                            value = message\n                            message = message.get('message')\n                    else:\n                        message = value.get('message', None)\n                except ValueError:\n                    pass\n    \n        exception_class: Type[WebDriverException]\n        if status in ErrorCode.NO_SUCH_ELEMENT:\n            exception_class = NoSuchElementException\n        elif status in ErrorCode.NO_SUCH_FRAME:\n            exception_class = NoSuchFrameException\n        elif status in ErrorCode.NO_SUCH_SHADOW_ROOT:\n            exception_class = NoSuchShadowRootException\n        elif status in ErrorCode.NO_SUCH_WINDOW:\n            exception_class = NoSuchWindowException\n        elif status in ErrorCode.STALE_ELEMENT_REFERENCE:\n            exception_class = StaleElementReferenceException\n        elif status in ErrorCode.ELEMENT_NOT_VISIBLE:\n            exception_class = ElementNotVisibleException\n        elif status in ErrorCode.INVALID_ELEMENT_STATE:\n            exception_class = InvalidElementStateException\n        elif status in ErrorCode.INVALID_SELECTOR \\\n                or status in ErrorCode.INVALID_XPATH_SELECTOR \\\n                or status in ErrorCode.INVALID_XPATH_SELECTOR_RETURN_TYPER:\n            exception_class = InvalidSelectorException\n        elif status in ErrorCode.ELEMENT_IS_NOT_SELECTABLE:\n            exception_class = ElementNotSelectableException\n        elif status in ErrorCode.ELEMENT_NOT_INTERACTABLE:\n            exception_class = ElementNotInteractableException\n        elif status in ErrorCode.INVALID_COOKIE_DOMAIN:\n            exception_class = InvalidCookieDomainException\n        elif status in ErrorCode.UNABLE_TO_SET_COOKIE:\n            exception_class = UnableToSetCookieException\n        elif status in ErrorCode.TIMEOUT:\n            exception_class = TimeoutException\n        elif status in ErrorCode.SCRIPT_TIMEOUT:\n            exception_class = TimeoutException\n        elif status in ErrorCode.UNKNOWN_ERROR:\n            exception_class = WebDriverException\n        elif status in ErrorCode.UNEXPECTED_ALERT_OPEN:\n            exception_class = UnexpectedAlertPresentException\n        elif status in ErrorCode.NO_ALERT_OPEN:\n            exception_class = NoAlertPresentException\n        elif status in ErrorCode.IME_NOT_AVAILABLE:\n            exception_class = ImeNotAvailableException\n        elif status in ErrorCode.IME_ENGINE_ACTIVATION_FAILED:\n            exception_class = ImeActivationFailedException\n        elif status in ErrorCode.MOVE_TARGET_OUT_OF_BOUNDS:\n            exception_class = MoveTargetOutOfBoundsException\n        elif status in ErrorCode.JAVASCRIPT_ERROR:\n            exception_class = JavascriptException\n        elif status in ErrorCode.SESSION_NOT_CREATED:\n            exception_class = SessionNotCreatedException\n        elif status in ErrorCode.INVALID_ARGUMENT:\n            exception_class = InvalidArgumentException\n        elif status in ErrorCode.NO_SUCH_COOKIE:\n            exception_class = NoSuchCookieException\n        elif status in ErrorCode.UNABLE_TO_CAPTURE_SCREEN:\n            exception_class = ScreenshotException\n        elif status in ErrorCode.ELEMENT_CLICK_INTERCEPTED:\n            exception_class = ElementClickInterceptedException\n        elif status in ErrorCode.INSECURE_CERTIFICATE:\n            exception_class = InsecureCertificateException\n        elif status in ErrorCode.INVALID_COORDINATES:\n            exception_class = InvalidCoordinatesException\n        elif status in ErrorCode.INVALID_SESSION_ID:\n            exception_class = InvalidSessionIdException\n        elif status in ErrorCode.UNKNOWN_METHOD:\n            exception_class = UnknownMethodException\n        else:\n            exception_class = WebDriverException\n        if not value:\n            value = response['value']\n        if isinstance(value, str):\n            raise exception_class(value)\n        if message == \"\" and 'message' in value:\n            message = value['message']\n    \n        screen = None  # type: ignore[assignment]\n        if 'screen' in value:\n            screen = value['screen']\n    \n        stacktrace = None\n        st_value = value.get('stackTrace') or value.get('stacktrace')\n        if st_value:\n            if isinstance(st_value, str):\n                stacktrace = st_value.split('\\n')\n            else:\n                stacktrace = []\n                try:\n                    for frame in st_value:\n                        line = frame.get(\"lineNumber\", \"\")\n                        file = frame.get(\"fileName\", \"<anonymous>\")\n                        if line:\n                            file = f\"{file}:{line}\"\n                        meth = frame.get('methodName', '<anonymous>')\n                        if 'className' in frame:\n                            meth = \"{}.{}\".format(frame['className'], meth)\n                        msg = \"    at %s (%s)\"\n                        msg = msg % (meth, file)\n                        stacktrace.append(msg)\n                except TypeError:\n                    pass\n        if exception_class == UnexpectedAlertPresentException:\n            alert_text = None\n            if 'data' in value:\n                alert_text = value['data'].get('text')\n            elif 'alert' in value:\n                alert_text = value['alert'].get('text')\n            raise exception_class(message, screen, stacktrace, alert_text)  # type: ignore[call-arg]  # mypy is not smart enough here\n>       raise exception_class(message, screen, stacktrace)\nE       selenium.common.exceptions.JavascriptException: Message: javascript error: Cannot read properties of undefined (reading 'click')\nE         (Session info: chrome=115.0.5790.114)\nE       Stacktrace:\nE       0   chromedriver                        0x0000000104ab86b8 chromedriver + 4937400\nE       1   chromedriver                        0x0000000104aafb73 chromedriver + 4901747\nE       2   chromedriver                        0x000000010466d616 chromedriver + 435734\nE       3   chromedriver                        0x0000000104672adf chromedriver + 457439\nE       4   chromedriver                        0x00000001046759bf chromedriver + 469439\nE       5   chromedriver                        0x00000001046f0bce chromedriver + 973774\nE       6   chromedriver                        0x00000001046d5012 chromedriver + 860178\nE       7   chromedriver                        0x00000001046efe76 chromedriver + 970358\nE       8   chromedriver                        0x00000001046d4de3 chromedriver + 859619\nE       9   chromedriver                        0x00000001046a2d7f chromedriver + 654719\nE       10  chromedriver                        0x00000001046a40de chromedriver + 659678\nE       11  chromedriver                        0x0000000104a742ad chromedriver + 4657837\nE       12  chromedriver                        0x0000000104a79130 chromedriver + 4677936\nE       13  chromedriver                        0x0000000104a7fdef chromedriver + 4705775\nE       14  chromedriver                        0x0000000104a7a05a chromedriver + 4681818\nE       15  chromedriver                        0x0000000104a4c92c chromedriver + 4495660\nE       16  chromedriver                        0x0000000104a97838 chromedriver + 4802616\nE       17  chromedriver                        0x0000000104a979b7 chromedriver + 4802999\nE       18  chromedriver                        0x0000000104aa899f chromedriver + 4872607\nE       19  libsystem_pthread.dylib             0x00007fff203788fc _pthread_start + 224\nE       20  libsystem_pthread.dylib             0x00007fff20374443 thread_start + 15\n\n/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py:243: JavascriptException",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1702542813993,
+      "stop" : 1702542816081,
+      "duration" : 2088
+    },
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.JavascriptException: Message: javascript error: Cannot read properties of undefined (reading 'click')\n  (Session info: chrome=115.0.5790.114)\nStacktrace:\n0   chromedriver                        0x0000000104ab86b8 chromedriver + 4937400\n1   chromedriver                        0x0000000104aafb73 chromedriver + 4901747\n2   chromedriver                        0x000000010466d616 chromedriver + 435734\n3   chromedriver                        0x0000000104672adf chromedriver + 457439\n4   chromedriver                        0x00000001046759bf chromedriver + 469439\n5   chromedriver                        0x00000001046f0bce chromedriver + 973774\n6   chromedriver                        0x00000001046d5012 chromedriver + 860178\n7   chromedriver                        0x00000001046efe76 chromedriver + 970358\n8   chromedriver                        0x00000001046d4de3 chromedriver + 859619\n9   chromedriver                        0x00000001046a2d7f chromedriver + 654719\n10  chromedriver                        0x00000001046a40de chromedriver + 659678\n11  chromedriver                        0x0000000104a742ad chromedriver + 4657837\n12  chromedriver                        0x0000000104a79130 chromedriver + 4677936\n13  chromedriver                        0x0000000104a7fdef chromedriver + 4705775\n14  chromedriver                        0x0000000104a7a05a chromedriver + 4681818\n15  chromedriver                        0x0000000104a4c92c chromedriver + 4495660\n16  chromedriver                        0x0000000104a97838 chromedriver + 4802616\n17  chromedriver                        0x0000000104a979b7 chromedriver + 4802999\n18  chromedriver                        0x0000000104aa899f chromedriver + 4872607\n19  libsystem_pthread.dylib             0x00007fff203788fc _pthread_start + 224\n20  libsystem_pthread.dylib             0x00007fff20374443 thread_start + 15\n\n",
+    "statusTrace" : "  File \"/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pluggy/_callers.py\", line 39, in _multicall\n    res = hook_impl.function(*args)\n  File \"/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/_pytest/fixtures.py\", line 1123, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n  File \"/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/_pytest/fixtures.py\", line 895, in call_fixture_func\n    fixture_result = next(generator)\n  File \"/Volumes/HD-2/自动化/UI/testcase/test_01_sbed/test_01_jjgl/test_02_fhxxcx.py\", line 39, in setup\n    sbed.jjgl_Menu_click()\n  File \"/Volumes/HD-2/自动化/UI/pageObj/sbed/sbed_page.py\", line 123, in jjgl_Menu_click\n    self.script(src,element)\n  File \"/Volumes/HD-2/自动化/UI/pageObj/base.py\", line 125, in script\n    return self.driver.execute_script(src)\n  File \"/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py\", line 491, in execute_script\n    return self.execute(command, {\n  File \"/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py\", line 428, in execute\n    self.error_handler.check_response(response)\n  File \"/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py\", line 243, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1702542684497,
+      "stop" : 1702542684590,
+      "duration" : 93
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "session_login",
+    "time" : {
+      "start" : 1702542716804,
+      "stop" : 1702542741545,
+      "duration" : 24741
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "session_login::0",
+    "time" : {
+      "start" : 1702542850838,
+      "stop" : 1702542851307,
+      "duration" : 469
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "社保e贷-进件管理-复核信息查询页面"
+  }, {
+    "name" : "story",
+    "value" : "检查客户群体下拉选项是否完整"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('session_login')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCase.test_01_sbed.test_01_jjgl"
+  }, {
+    "name" : "suite",
+    "value" : "test_02_fhxxcx"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_fhxxcx"
+  }, {
+    "name" : "host",
+    "value" : "kongdeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "21763-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCase.test_01_sbed.test_01_jjgl.test_02_fhxxcx"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "casedata",
+    "value" : "{'id': 'test_fhxxcx004', 'detail': '高级搜索-客户群体下拉框', 'screenshot': 'search_customer_group', 'check': {'content': '贵宾名单群体 公职上班群体 个体工商户群体 私企上班群体 行内客户群体 城乡居民群体'}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "@pytest.mark.usefixtures('session_login')" ]
+  },
+  "source" : "b36071055540a0e4.json",
+  "parameterValues" : [ "{'id': 'test_fhxxcx004', 'detail': '高级搜索-客户群体下拉框', 'screenshot': 'search_customer_group', 'check': {'content': '贵宾名单群体 公职上班群体 个体工商户群体 私企上班群体 行内客户群体 城乡居民群体'}}" ]
+}

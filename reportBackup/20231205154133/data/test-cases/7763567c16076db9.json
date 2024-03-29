@@ -1,0 +1,165 @@
+{
+  "uid" : "7763567c16076db9",
+  "name" : "test_subMenus[casedata3]",
+  "fullName" : "testCase.test_01_sbed.test_01_sbed.Test_sbed#test_subMenus",
+  "historyId" : "da4eefbb0f27e4f20739053a39ceb87c",
+  "time" : {
+    "start" : 1701762061265,
+    "stop" : 1701762062012,
+    "duration" : 747
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1701762057534,
+      "stop" : 1701762057698,
+      "duration" : 164
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1701761980923,
+      "stop" : 1701761981349,
+      "duration" : 426
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "session_login",
+    "time" : {
+      "start" : 1701762010707,
+      "stop" : 1701762035669,
+      "duration" : 24962
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e659c0af1de30dfc",
+      "name" : "log",
+      "source" : "e659c0af1de30dfc.txt",
+      "type" : "text/plain",
+      "size" : 329785
+    }, {
+      "uid" : "9e36a7e6d6366b63",
+      "name" : "stderr",
+      "source" : "9e36a7e6d6366b63.txt",
+      "type" : "text/plain",
+      "size" : 151
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "setup::0",
+    "time" : {
+      "start" : 1701762062686,
+      "stop" : 1701762065022,
+      "duration" : 2336
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "session_login::0",
+    "time" : {
+      "start" : 1701762092915,
+      "stop" : 1701762093245,
+      "duration" : 330
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "社保e贷页面"
+  }, {
+    "name" : "story",
+    "value" : "检查社保e贷各个父级菜单的子菜单"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('session_login')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCase.test_01_sbed"
+  }, {
+    "name" : "suite",
+    "value" : "test_01_sbed"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_sbed"
+  }, {
+    "name" : "host",
+    "value" : "kongdeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "1684-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCase.test_01_sbed.test_01_sbed"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "casedata",
+    "value" : "{'id': 'test_sbed001.4', 'detail': '异常管理子菜单校验', 'screenshot': 'ycgl_submemus', 'check': {'submenus': '授信异常查询 贷后异常查询 预授信异常查询 用信异常查询 续贷异常查询'}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('session_login')" ]
+  },
+  "source" : "7763567c16076db9.json",
+  "parameterValues" : [ "{'id': 'test_sbed001.4', 'detail': '异常管理子菜单校验', 'screenshot': 'ycgl_submemus', 'check': {'submenus': '授信异常查询 贷后异常查询 预授信异常查询 用信异常查询 续贷异常查询'}}" ]
+}

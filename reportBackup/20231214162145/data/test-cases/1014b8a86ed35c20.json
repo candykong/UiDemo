@@ -1,0 +1,168 @@
+{
+  "uid" : "1014b8a86ed35c20",
+  "name" : "test_searchReset[casedata1]",
+  "fullName" : "testCase.test_01_sbed.test_01_jjgl.test_02_fhxxcx.Test_fhxxcx#test_searchReset",
+  "historyId" : "45add0fd93075523548eda35977491f5",
+  "time" : {
+    "start" : 1702542085361,
+    "stop" : 1702542085636,
+    "duration" : 275
+  },
+  "description" : "\n        检查搜索功能是否正常，重置后查询输入框是否被清空\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    检查搜索功能是否正常，重置后查询输入框是否被清空\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "session_login",
+    "time" : {
+      "start" : 1702541974826,
+      "stop" : 1702542000131,
+      "duration" : 25305
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1702542071279,
+      "stop" : 1702542073407,
+      "duration" : 2128
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1702541922876,
+      "stop" : 1702541922977,
+      "duration" : 101
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        检查搜索功能是否正常，重置后查询输入框是否被清空\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "46d88c2fd9a90116",
+      "name" : "log",
+      "source" : "46d88c2fd9a90116.txt",
+      "type" : "text/plain",
+      "size" : 463065
+    }, {
+      "uid" : "7ab566c162b101fb",
+      "name" : "stderr",
+      "source" : "7ab566c162b101fb.txt",
+      "type" : "text/plain",
+      "size" : 144
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "session_login::0",
+    "time" : {
+      "start" : 1702542098440,
+      "stop" : 1702542098822,
+      "duration" : 382
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setup::0",
+    "time" : {
+      "start" : 1702542092037,
+      "stop" : 1702542094405,
+      "duration" : 2368
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "检查搜索和重置按钮功能"
+  }, {
+    "name" : "feature",
+    "value" : "社保e贷-进件管理-复核信息查询页面"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('session_login')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCase.test_01_sbed.test_01_jjgl"
+  }, {
+    "name" : "suite",
+    "value" : "test_02_fhxxcx"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_fhxxcx"
+  }, {
+    "name" : "host",
+    "value" : "kongdeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "21168-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCase.test_01_sbed.test_01_jjgl.test_02_fhxxcx"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "casedata",
+    "value" : "{'id': 'test_fhxxcx009_2', 'detail': '重置按钮检查', 'screenshot': 'reset', 'check': {'content': '各个查询框内容清空'}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('session_login')" ]
+  },
+  "source" : "1014b8a86ed35c20.json",
+  "parameterValues" : [ "{'id': 'test_fhxxcx009_2', 'detail': '重置按钮检查', 'screenshot': 'reset', 'check': {'content': '各个查询框内容清空'}}" ]
+}

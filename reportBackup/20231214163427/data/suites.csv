@@ -1,0 +1,124 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Dec 14 16:33:00 CST 2023","Thu Dec 14 16:33:00 CST 2023","66","testCase.test_01_sbed.test_01_jjgl","test_01_dkjdcx","Test_dkjdcx","","","test_tableHeaders[casedata0]","
+        检查表头字段是否完整
+        :return:
+        "
+"broken","Thu Dec 14 16:33:37 CST 2023","Thu Dec 14 16:33:37 CST 2023","0","testCase.test_01_sbed.test_01_jjgl","test_02_fhxxcx","Test_fhxxcx","","","test_search[casedata0]","
+        检查高级查询字段是否完整
+        :return:
+        "
+"failed","Thu Dec 14 16:32:45 CST 2023","Thu Dec 14 16:32:46 CST 2023","1003","testCase.test_01_sbed","test_01_sbed","Test_sbed","","","test_parentMenus[casedata0]","
+        进入社保e贷检查父级菜单
+        :param casedata:
+        :return:
+        "
+"passed","Thu Dec 14 16:32:59 CST 2023","Thu Dec 14 16:33:00 CST 2023","1071","testCase.test_01_sbed.test_01_jjgl","test_01_dkjdcx","Test_dkjdcx","","","test_searchApplytime[casedata0]","
+        检查高级搜索-开始时间和结束时间默认时间是否正确
+        :return:
+        "
+"passed","Thu Dec 14 16:33:00 CST 2023","Thu Dec 14 16:33:05 CST 2023","5670","testCase.test_01_sbed.test_01_jjgl","test_01_dkjdcx","Test_dkjdcx","","","test_searchReset[casedata0]","
+        检查搜索功能是否正常，重置后查询输入框是否被清空
+        :return:
+        "
+"broken","Thu Dec 14 16:33:38 CST 2023","Thu Dec 14 16:33:38 CST 2023","0","testCase.test_01_sbed.test_01_jjgl","test_02_fhxxcx","Test_fhxxcx","","","test_toCustomerDetail[casedata0]","
+        检查点击客户姓名是否正常进入该客户详情页
+        :return:
+        "
+"passed","Thu Dec 14 16:33:05 CST 2023","Thu Dec 14 16:33:06 CST 2023","267","testCase.test_01_sbed.test_01_jjgl","test_01_dkjdcx","Test_dkjdcx","","","test_searchReset[casedata1]","
+        检查搜索功能是否正常，重置后查询输入框是否被清空
+        :return:
+        "
+"passed","Thu Dec 14 16:32:49 CST 2023","Thu Dec 14 16:32:50 CST 2023","657","testCase.test_01_sbed","test_01_sbed","Test_sbed","","","test_subMenus[casedata4]",""
+"broken","Thu Dec 14 16:33:33 CST 2023","Thu Dec 14 16:33:33 CST 2023","0","testCase.test_01_sbed.test_01_jjgl","test_02_fhxxcx","Test_fhxxcx","","","test_title[casedata0]","
+        检查标题
+        :return:
+        "
+"broken","Thu Dec 14 16:33:37 CST 2023","Thu Dec 14 16:33:37 CST 2023","0","testCase.test_01_sbed.test_01_jjgl","test_02_fhxxcx","Test_fhxxcx","","","test_baseQuery[casedata0]","
+        检查基础查询输入框默认文案
+        :return:
+        "
+"broken","Thu Dec 14 16:34:10 CST 2023","Thu Dec 14 16:34:10 CST 2023","0","testCase.test_02_ned","test_01_ned","Test_ned","","","test_subMenus[casedata1]",""
+"broken","Thu Dec 14 16:33:38 CST 2023","Thu Dec 14 16:33:38 CST 2023","0","testCase.test_01_sbed.test_01_jjgl","test_02_fhxxcx","Test_fhxxcx","","","test_searchReset[casedata0]","
+        检查搜索功能是否正常，重置后查询输入框是否被清空
+        :return:
+        "
+"broken","Thu Dec 14 16:33:37 CST 2023","Thu Dec 14 16:33:37 CST 2023","0","testCase.test_01_sbed.test_01_jjgl","test_02_fhxxcx","Test_fhxxcx","","","test_searchDqjdOptions[casedata0]","
+        检查调查状态下拉选项是否完整
+        :return:
+        "
+"passed","Thu Dec 14 16:32:47 CST 2023","Thu Dec 14 16:32:48 CST 2023","932","testCase.test_01_sbed","test_01_sbed","Test_sbed","","","test_subMenus[casedata2]",""
+"broken","Thu Dec 14 16:34:10 CST 2023","Thu Dec 14 16:34:10 CST 2023","0","testCase.test_02_ned","test_01_ned","Test_ned","","","test_subMenus[casedata0]",""
+"broken","Thu Dec 14 16:33:38 CST 2023","Thu Dec 14 16:33:38 CST 2023","0","testCase.test_01_sbed.test_01_jjgl","test_02_fhxxcx","Test_fhxxcx","","","test_searchReset[casedata1]","
+        检查搜索功能是否正常，重置后查询输入框是否被清空
+        :return:
+        "
+"passed","Thu Dec 14 16:32:57 CST 2023","Thu Dec 14 16:32:59 CST 2023","1370","testCase.test_01_sbed.test_01_jjgl","test_01_dkjdcx","Test_dkjdcx","","","test_searchDqjdOptions[casedata0]","
+        检查当前进度下拉选项是否完整
+        :return:
+        "
+"passed","Thu Dec 14 16:32:53 CST 2023","Thu Dec 14 16:32:55 CST 2023","1648","testCase.test_01_sbed.test_01_jjgl","test_01_dkjdcx","Test_dkjdcx","","","test_title[casedata0]","
+        检查标题
+        :return:
+        "
+"passed","Thu Dec 14 16:32:48 CST 2023","Thu Dec 14 16:32:49 CST 2023","756","testCase.test_01_sbed","test_01_sbed","Test_sbed","","","test_subMenus[casedata3]",""
+"broken","Thu Dec 14 16:33:37 CST 2023","Thu Dec 14 16:33:37 CST 2023","0","testCase.test_01_sbed.test_01_jjgl","test_02_fhxxcx","Test_fhxxcx","","","test_searchOverTimeStatusOptions[casedata0]","
+        检查超时状态下拉选项是否完整
+        :return:
+        "
+"passed","Thu Dec 14 16:32:46 CST 2023","Thu Dec 14 16:32:46 CST 2023","529","testCase.test_01_sbed","test_01_sbed","Test_sbed","","","test_subMenus[casedata0]",""
+"passed","Thu Dec 14 16:32:44 CST 2023","Thu Dec 14 16:32:45 CST 2023","937","testCase.test_01_sbed","test_01_sbed","Test_sbed","","","test_accountInfo[casedata0]","
+        从应用中心进入社保e贷，检查标题
+        :return:
+        "
+"passed","Thu Dec 14 16:32:55 CST 2023","Thu Dec 14 16:32:55 CST 2023","213","testCase.test_01_sbed.test_01_jjgl","test_01_dkjdcx","Test_dkjdcx","","","test_baseQuery[casedata0]","
+        检查基础查询输入框默认文案
+        :return:
+        "
+"broken","Thu Dec 14 16:34:10 CST 2023","Thu Dec 14 16:34:10 CST 2023","0","testCase.test_02_ned","test_01_ned","Test_ned","","","test_parentMenus[casedata0]","
+        进入农e贷检查父级菜单
+        :param casedata:
+        :return:
+        "
+"broken","Thu Dec 14 16:33:37 CST 2023","Thu Dec 14 16:33:37 CST 2023","0","testCase.test_01_sbed.test_01_jjgl","test_02_fhxxcx","Test_fhxxcx","","","test_searchCustomerOptions[casedata0]","
+        检查客户群体下拉选项是否完整
+        :return:
+        "
+"passed","Thu Dec 14 16:32:21 CST 2023","Thu Dec 14 16:32:38 CST 2023","16543","testCase","test_02_applyCentor","Test_applyCentor","","","test_check_title[casedata0]","
+        从应用中心进入农e贷，检查标题
+        :return:
+        "
+"passed","Thu Dec 14 16:32:56 CST 2023","Thu Dec 14 16:32:56 CST 2023","669","testCase.test_01_sbed.test_01_jjgl","test_01_dkjdcx","Test_dkjdcx","","","test_search[casedata0]","
+        检查高级查询字段是否完整
+        :return:
+        "
+"failed","Thu Dec 14 16:33:06 CST 2023","Thu Dec 14 16:33:31 CST 2023","25329","testCase.test_01_sbed.test_01_jjgl","test_01_dkjdcx","Test_dkjdcx","","","test_toCustomerDetail[casedata0]","
+        检查点击客户姓名是否正常进入该客户详情页
+        :return:
+        "
+"passed","Thu Dec 14 16:32:38 CST 2023","Thu Dec 14 16:32:41 CST 2023","2905","testCase","test_02_applyCentor","Test_applyCentor","","","test_check_title[casedata1]","
+        从应用中心进入农e贷，检查标题
+        :return:
+        "
+"broken","Thu Dec 14 16:33:38 CST 2023","Thu Dec 14 16:33:38 CST 2023","0","testCase.test_01_sbed.test_01_jjgl","test_02_fhxxcx","Test_fhxxcx","","","test_tableHeaders[casedata0]","
+        检查表头字段是否完整
+        :return:
+        "
+"passed","Thu Dec 14 16:32:50 CST 2023","Thu Dec 14 16:32:50 CST 2023","2","testCase.test_01_sbed","test_01_sbed","Test_sbed","","","test_subMenus[casedata5]",""
+"broken","Thu Dec 14 16:33:38 CST 2023","Thu Dec 14 16:33:38 CST 2023","0","testCase.test_01_sbed.test_01_jjgl","test_02_fhxxcx","Test_fhxxcx","","","test_searchApplytime[casedata0]","
+        检查高级搜索-开始时间和结束时间默认时间是否正确
+        :return:
+        "
+"failed","Thu Dec 14 16:32:46 CST 2023","Thu Dec 14 16:32:47 CST 2023","779","testCase.test_01_sbed","test_01_sbed","Test_sbed","","","test_subMenus[casedata1]",""
+"passed","Thu Dec 14 16:31:32 CST 2023","Thu Dec 14 16:31:56 CST 2023","23990","testCase","test_01_login","Test_login","","","test_login[casedata0]","
+        登录测试
+        :param datayaml: 加载login_data登录测试数据
+        :return:
+        "
+"broken","Thu Dec 14 16:33:39 CST 2023","Thu Dec 14 16:33:39 CST 2023","0","testCase.test_02_ned","test_01_ned","Test_ned","","","test_accountInfo[casedata0]","
+        从应用中心进入农e贷，检查标题
+        :return:
+        "
+"passed","Thu Dec 14 16:32:56 CST 2023","Thu Dec 14 16:32:57 CST 2023","928","testCase.test_01_sbed.test_01_jjgl","test_01_dkjdcx","Test_dkjdcx","","","test_searchCustomerOptions[casedata0]","
+        检查客户群体下拉选项是否完整
+        :return:
+        "

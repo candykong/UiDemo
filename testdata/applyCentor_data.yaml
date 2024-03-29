@@ -1,0 +1,12 @@
+-
+  id: test_applyCentor001.1
+  detail : 社宝e贷应用跳转检查
+  screenshot : sbed_success
+  check:
+    title: 社宝e贷
+-
+  id: test_applyCentor001.2
+  detail : 农e贷应用跳转检查
+  screenshot : ned_success
+  check:
+    title: 农e贷

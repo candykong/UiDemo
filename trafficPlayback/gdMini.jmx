@@ -1,0 +1,802 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <jmeterTestPlan>
+        <TestPlan>
+            <stringProp name="TestPlan.comments"></stringProp>
+            <boolProp name="TestPlan.functional_mode">false</boolProp>
+            <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
+            <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel"
+                testclass="Arguments" testname="User Defined Variables" enabled="true">
+                <collectionProp name="Arguments.arguments">
+                    <elementProp name="domain" elementType="Argument">
+                        <stringProp name="Argument.name">domain</stringProp>
+                        <stringProp name="Argument.value">example.com</stringProp>
+                        <stringProp name="Argument.metadata">=</stringProp>
+                    </elementProp>
+                    <elementProp name="port" elementType="Argument">
+                        <stringProp name="Argument.name">port</stringProp>
+                        <stringProp name="Argument.value">8080</stringProp>
+                        <stringProp name="Argument.metadata">=</stringProp>
+                    </elementProp>
+                </collectionProp>
+            </elementProp>
+        </TestPlan>
+        <hashTree>
+            <ThreadGroup>
+                <stringProp name="ThreadGroup.num_threads">1</stringProp>
+                <stringProp name="ThreadGroup.ramp_time">1</stringProp>
+                <stringProp name="ThreadGroup.start_time">1637685000000</stringProp>
+                <stringProp name="ThreadGroup.end_time">1637685000000</stringProp>
+                <boolProp name="ThreadGroup.scheduler">false</boolProp>
+                <stringProp name="ThreadGroup.duration"></stringProp>
+                <stringProp name="ThreadGroup.delay"></stringProp>
+                <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel"
+                    testclass="LoopController" testname="Loop Controller" enabled="true">
+                    <boolProp name="LoopController.continue_forever">false</boolProp>
+                    <stringProp name="LoopController.loops">1</stringProp>
+                </elementProp>
+            </ThreadGroup>
+            <hashTree>
+                	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/sysMaintainConfig/getSysConfig">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/common/init">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/common/code2Session">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/user/loginByOpenId">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/common/getBuriedPointList">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/apply/homePage">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/spouseNed/operateRecordList">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/activity/inInvestNewActivity">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/sysMaintainConfig/getSysNoticeConfig">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/apply/queryMarketRelation">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/giftNew/homeDialog">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/apply/getLocation">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/activity/investNewActivityDialog">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/apply/getCityList">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/common/getEncryptedData">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/user/miniProgramLogin">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/userAlive/userAliveDialog">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/common/ocr">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/sysMaintainConfig/getSysConfig">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/common/init">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/common/ocr">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/sysMaintainConfig/getSysConfig">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/common/init">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/giftNew/subscribe">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/activity/addSubscribeMsgRecord">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/user/validRealCheck">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/user/validReal">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/common/detectAuthCallback">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/user/loginByOpenId">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/userAlive/userAliveBindIdCard">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/apply/homePage">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/apply/clickValid">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/common/getAuthContractContent">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/activity/useCreditInActivity">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/common/getAuthContractContent">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/apply/authorization">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/apply/applyPage">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/apply/queryMarketRelation">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/giftNew/giftNewRedPackagePreCheck">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/apply/applyPageCache">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/apply/applyPageCache">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/apply/getApplyBank">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/activity/useCreditInActivity">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/apply/applyPageCache">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/apply/applyPageCache">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/apply/applyPageCache">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/apply/applyPageCache">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/apply/applyPageCache">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/apply/applyPageCache">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/apply/applyPageCache">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/apply/applyPageCache">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/apply/applyPageCache">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/apply/applyPageCache">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/apply/applyPageCache">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/apply/applyPageCache">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/apply/applyPageCache">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/apply/applyPageCache">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/common/dhbApiCheck">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/common/dhbApiCheck">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/apply/canApplySubmit">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/user/isNeedFace">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/common/getDictByCode">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/common/detectAuthCallback">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/apply/applySubmit">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/apply/applyPage">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/apply/applyPage">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/activity/useCreditInActivity">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/apply/applyPage">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/fins-console-sso/user/login">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/fins-console-sso/user/getSysConfig">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/fins-console-sso/sysMaintainConfig/getSysNoticeConfig">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="GET" path="/fins-console-sso/user/appList">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="GET" path="/fins-console-sso/user/remindMatterList">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="GET" path="/fins-console-sso/base/downloadFile">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="GET" path="/fins-console-sso/base/downloadFile">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="GET" path="/fins-console-sso/base/downloadFile">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="GET" path="/fins-console-sso/base/downloadFile">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="GET" path="/fins-console-sso/base/downloadFile">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="GET" path="/fins-console-sso/base/downloadFile">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="GET" path="/fins-console-sso/base/downloadFile">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="GET" path="/fins-console-sso/base/downloadFile">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="GET" path="/fins-console-sso/base/downloadFile">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/fins-console-sso/user/chkApp">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="GET" path="/fins-console-middle/index.html">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="GET" path="/fins-console-middle/static/css/chunk-elementUI.836bf809.css">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="GET" path="/fins-console-middle/static/lib/xrtc-3.4.0.js">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="GET" path="/fins-console-middle/static/css/chunk-libs.132358f1.css">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="GET" path="/fins-console-middle/static/js/app.5163b33a.js">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="GET" path="/fins-console-middle/static/js/chunk-libs.1fc5994c.js">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="GET" path="/fins-console-middle/static/js/chunk-elementUI.8d93ee96.js">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="GET" path="/fins-console-middle/static/css/app.5fa03cea.css">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/apply/applyPage">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/apply/applyPage">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/fins-console-sso/sysMenu/getAll">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="GET" path="/fins-console-middle/static/css/chunk-ee96.4ed31987.css">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="GET" path="/fins-console-middle/static/js/chunk-ee96.9de68d1c.js">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="GET" path="/fins-console-sso/sysDict/getAllDictItems">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/fins-console-middle/group/getTreeList">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/fins-console-middle/home/getRemindMatters">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="GET" path="/fins-console-middle/static/fonts/element-icons.535877f.woff">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/apply/applyPage">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="GET" path="/fins-console-middle/static/js/chunk-26d2.95f42b4f.js">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="GET" path="/fins-console-middle/static/css/chunk-commons.2338fb31.css">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="GET" path="/fins-console-middle/static/js/chunk-commons.6bcee190.js">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/fins-console-middle/intoManage/getOrgTree">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/fins-console-middle/loanProgress/getList">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/apply/applyPage">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/apply/applyPage">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/apply/applyPage">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/activity/useCreditInActivity">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/fins-console-middle/loanProgress/getList">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/apply/applyPage">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/apply/applyPage">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="GET" path="/fins-console-middle/static/js/chunk-c936.c4e9b86c.js">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="GET" path="/fins-console-middle/static/css/chunk-c936.7a06bc57.css">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/fins-console-middle/intoManage/getLoanArchiveList">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/apply/applyPage">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/sysMaintainConfig/getSysConfig">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/common/init">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/spouseNed/operateRecordList">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/activity/tgyInvalidQuery">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/activity/inInvestNewActivity">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/apply/homePage">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/sysMaintainConfig/getSysNoticeConfig">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/userAlive/userAliveDialog">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/giftNew/homeDialog">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/activity/investNewActivityDialog">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/apply/applyPage">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/apply/applyPage">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/activity/useCreditInActivity">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/activity/inInvestNewActivity">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/spouseNed/operateRecordList">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/activity/tgyInvalidQuery">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/apply/homePage">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/sysMaintainConfig/getSysNoticeConfig">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/userAlive/userAliveDialog">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/giftNew/homeDialog">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/activity/investNewActivityDialog">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/activity/useCreditInActivity">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/myHome/applyRecord">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/activity/useCreditInActivity">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/myHome/applyRecord">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/activity/useCreditInActivity">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/sysMaintainConfig/getSysConfig">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/sysMaintainConfig/getSysConfig">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/activity/useCreditInActivity">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/useCredit/loanRecord">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/myHome/myManager">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/activity/useCreditInActivity">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/activity/useCreditInActivity">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/myHome/guaranteeRecord">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+	<HTTPRequest method="POST" path="/sbed-test/fins-appsply-sso/prove/proveRecord">
+		<Host>${domain}</Host>
+		<Port>${port}</Port>
+	</HTTPRequest>
+
+
+            </hashTree>
+        </hashTree>
+    </jmeterTestPlan>

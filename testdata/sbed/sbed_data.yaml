@@ -1,0 +1,49 @@
+test_sbed001:
+  - id: test_sbed001.1
+    detail: 首页个人信息
+    screenshot: account_info
+    check:
+      account: 孔志兵
+      org: 所属机构：海南省
+      phone: 手机号：13126552495
+
+test_sbed002:
+  - id: test_sbed002.1
+    detail: 父菜单校验
+    screenshot: parent_memus
+    check:
+      menus: 进件管理 电调管理 贷后管理 提额降息管理 预授信管理 异常管理 面审管理 业务配置 贷款审批管理 续贷管理
+
+test_sbed003:
+  - id: test_sbed001.1
+    detail: 进件管理子菜单校验
+    screenshot: jjgl_submemus
+    check:
+      submenus: 贷款进度查询 复核信息查询 贷款转派管理 贷款归档管理
+  - id: test_sbed001.2
+    detail: 电调管理子菜单校验
+    screenshot: dhgl_submemus
+    check:
+      submenus: 电调员管理 智能外呼查询 客户授信电调 客户用信电调 客户贷后电调 贷后电调复核 通话记录
+  - id: test_sbed001.3
+    detail: 贷后管理子菜单校验
+    screenshot: dhougl_submemus
+    check:
+      submenus: 贷后任务配置 贷后检查记录 贷后临检管理 贷后风险预警 用款进度查询 贷后临检申请审批 贷款到期提醒 无还本续贷进度 展期进度
+  - id: test_sbed001.4
+    detail: 异常管理子菜单校验
+    screenshot: ycgl_submemus
+    check:
+      submenus: 授信异常查询 贷后异常查询 预授信异常查询 用信异常查询 续贷异常查询
+  - id: test_sbed001.5
+    detail: 业务配置子菜单校验
+    screenshot: ywpz_submemus
+    check:
+      submenus: 话术管理 产品流程配置
+  - id: test_sbed001.6
+    detail: 贷款审批管理子菜单校验
+    screenshot: dkspgl_submemus
+    check:
+      submenus: 贷款审批 已审任务查询
+
+

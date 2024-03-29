@@ -1,0 +1,137 @@
+{
+  "uid" : "98ff70b8c7c44d66",
+  "name" : "test_subMenus[casedata3]",
+  "fullName" : "testCase.test_sbed.Test_sbed#test_subMenus",
+  "historyId" : "d13c205f6902661a035e6d75b57cb9c3",
+  "time" : {
+    "start" : 1692064159795,
+    "stop" : 1692064160501,
+    "duration" : 706
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1692064124586,
+      "stop" : 1692064124670,
+      "duration" : 84
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "to_sbed",
+    "time" : {
+      "start" : 1692064124670,
+      "stop" : 1692064146464,
+      "duration" : 21794
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "deadbbf1fc86cb1d",
+      "name" : "log",
+      "source" : "deadbbf1fc86cb1d.txt",
+      "type" : "text/plain",
+      "size" : 235855
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "to_sbed::0",
+    "time" : {
+      "start" : 1692064161156,
+      "stop" : 1692064161416,
+      "duration" : 260
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "检查社保e贷各个父级菜单的子菜单"
+  }, {
+    "name" : "feature",
+    "value" : "社保e贷页面"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('to_sbed')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_sbed"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_sbed"
+  }, {
+    "name" : "host",
+    "value" : "kongdeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "1533-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCase.test_sbed"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "casedata",
+    "value" : "{'id': 'test_sbed001.4', 'detail': '异常管理子菜单校验', 'screenshot': 'ycgl_submemus', 'check': {'submenus': '授信异常查询 贷后异常查询 用信异常查询'}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fafae7f25f01bc66",
+      "status" : "passed",
+      "time" : {
+        "start" : 1692063384076,
+        "stop" : 1692063384771,
+        "duration" : 695
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('to_sbed')" ]
+  },
+  "source" : "98ff70b8c7c44d66.json",
+  "parameterValues" : [ "{'id': 'test_sbed001.4', 'detail': '异常管理子菜单校验', 'screenshot': 'ycgl_submemus', 'check': {'submenus': '授信异常查询 贷后异常查询 用信异常查询'}}" ]
+}

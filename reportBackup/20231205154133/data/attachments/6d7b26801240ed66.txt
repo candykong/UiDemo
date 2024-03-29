@@ -1,0 +1,1 @@
+[2023-12-05 15:40:52,407] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_applyCentor001.2 ; 测试点-> 农e贷应用跳转检查

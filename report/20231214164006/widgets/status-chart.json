@@ -1,0 +1,101 @@
+[ {
+  "uid" : "d5443b2d3fc4e3ce",
+  "name" : "test_searchCustomerOptions[casedata0]",
+  "time" : {
+    "start" : 1702543153813,
+    "stop" : 1702543154778,
+    "duration" : 965
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "400549afe6f44261",
+  "name" : "test_search[casedata0]",
+  "time" : {
+    "start" : 1702543153392,
+    "stop" : 1702543153803,
+    "duration" : 411
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "63a274ae1808922f",
+  "name" : "test_tableHeaders[casedata0]",
+  "time" : {
+    "start" : 1702543156672,
+    "stop" : 1702543156744,
+    "duration" : 72
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1c4c95b6069898bd",
+  "name" : "test_title[casedata0]",
+  "time" : {
+    "start" : 1702543151473,
+    "stop" : 1702543153091,
+    "duration" : 1618
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "24eb797ef217e460",
+  "name" : "test_baseQuery[casedata0]",
+  "time" : {
+    "start" : 1702543153117,
+    "stop" : 1702543153372,
+    "duration" : 255
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a3ccd679322b846e",
+  "name" : "test_searchReset[casedata0]",
+  "time" : {
+    "start" : 1702543156751,
+    "stop" : 1702543162242,
+    "duration" : 5491
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1631a4d33261c148",
+  "name" : "test_searchDqjdOptions[casedata0]",
+  "time" : {
+    "start" : 1702543154789,
+    "stop" : 1702543155634,
+    "duration" : 845
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b06c0fdc2bfd937b",
+  "name" : "test_toCustomerDetail[casedata0]",
+  "time" : {
+    "start" : 1702543162530,
+    "stop" : 1702543187832,
+    "duration" : 25302
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a334f90d5e6e4b78",
+  "name" : "test_searchReset[casedata1]",
+  "time" : {
+    "start" : 1702543162254,
+    "stop" : 1702543162520,
+    "duration" : 266
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "92308c36b37e6859",
+  "name" : "test_searchApplytime[casedata0]",
+  "time" : {
+    "start" : 1702543155642,
+    "stop" : 1702543156654,
+    "duration" : 1012
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

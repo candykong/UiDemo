@@ -1,0 +1,4 @@
+[32mINFO    [0m root:log.py:40 当前执行测试用例ID-> test_sbed001.6 ; 测试点-> 贷款审批管理子菜单校验
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:358 DELETE http://localhost:50723/session/0546ea6b232777b5866fba87bbb2a968 {}
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:380 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:409 Finished Request

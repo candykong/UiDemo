@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert '农e贷' == '农e贷1'\n  - 农e贷1\n  ?    -\n  + 农e贷",
+      "children" : [ {
+        "name" : "test_check_title[casedata1]",
+        "uid" : "ae4c5f19129e9c1f",
+        "parentUid" : "1d5fb251a1a0be13ac195fa71af3d56d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1690785161478,
+          "stop" : 1690785162156,
+          "duration" : 678
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'test_applyCentor001.2', 'detail': '农e贷应用跳转检查', 'screenshot': 'ned_success', 'check': {'title': '农e贷1'}}" ]
+      } ],
+      "uid" : "1d5fb251a1a0be13ac195fa71af3d56d"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

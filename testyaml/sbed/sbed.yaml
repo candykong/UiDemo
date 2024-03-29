@@ -1,0 +1,107 @@
+- testinfo:
+    - id: test_sbed001
+      title: 检查首页个人信息
+      info: 社保e贷首页个人信息
+  check:
+    - element_info: mx-2.text-primary.text--darken-3
+      find_type: class name
+      operate_type: text
+      info: 账号名称
+    - element_info: py-2.text-color666
+      find_type: class name
+      operate_type: text
+      info: 所属机构
+    - element_info: mt-2.text-color666
+      find_type: class name
+      operate_type: text
+      info: 手机号
+
+- testinfo:
+    - id: test_sbed002
+      title: 检查父级菜单
+      info: 父级菜单
+  check:
+    - element_info: el-submenu__title
+      find_type: class name
+      operate_type: text
+      info: 父级菜单
+
+- testinfo:
+    - id: test_sbed003
+      title: 检查父级子菜单
+      info: 父级子菜单
+  testcase:
+    - element_info: //span[text()='进件管理']
+      find_type: xpath
+      operate_type: arguments[0].click();
+      info: 进件管理菜单
+    - element_info: //span[text()='电调管理']
+      find_type: xpath
+      operate_type: arguments[0].click();
+      info: 电核管理菜单
+    - element_info: //span[text()='贷后管理']
+      find_type: xpath
+      operate_type: arguments[0].click();
+      info: 贷后管理菜单
+    - element_info: //span[text()='异常管理']
+      find_type: xpath
+      operate_type: arguments[0].click();
+      info: 异常管理菜单
+    - element_info: //span[text()='业务配置']
+      find_type: xpath
+      operate_type: arguments[0].click();
+      info: 业务配置菜单
+    - element_info: //span[text()='贷款审批管理']
+      find_type: xpath
+      operate_type: arguments[0].click();
+      info: 贷款审批管理菜单
+  check:
+    - element_info: //span[text()='进件管理']/../following-sibling::ul//span
+      find_type: xpath
+      operate_type: text
+      info: 进件管理子菜单
+    - element_info: //span[text()='电调管理']/../following-sibling::ul//span
+      find_type: xpath
+      operate_type: text
+      info: 电核管理子菜单
+    - element_info: //span[text()='贷后管理']/../following-sibling::ul//span
+      find_type: xpath
+      operate_type: text
+      info: 贷后管理子菜单
+    - element_info: //span[text()='异常管理']/../following-sibling::ul//span
+      find_type: xpath
+      operate_type: text
+      info: 异常管理子菜单
+    - element_info: //span[text()='业务配置']/../following-sibling::ul//span
+      find_type: xpath
+      operate_type: text
+      info: 业务配置子菜单
+    - element_info: //span[text()='贷款审批管理']/../following-sibling::ul//span
+      find_type: xpath
+      operate_type: text
+      info: 贷款审批管理子菜单
+
+- testinfo:
+    - id: test_sbed004
+      title: 切换角色
+      info: 切换角色
+  testcase:
+    - element_info: title-card.role-color.el-dropdown-selfdefine
+      find_type: class name
+      pre_operate_type: move_to_element
+      info: 鼠标滑动到元素上
+    - element_info: el-dropdown-menu.el-popper.el-dropdown-menu--small
+      find_type: class name
+      order: 2
+    - element_info: .//div[contains(text(), '角色名称')]
+      find_type: xpath
+      pre_operate_type: move_to_element
+      operate_type: click()
+      info: 鼠标滑动到角色上，然后再点击
+  check:
+    - element_info: mr-3
+      find_type: class name
+      operate_type: text
+      info: 获取当前角色名称
+
+

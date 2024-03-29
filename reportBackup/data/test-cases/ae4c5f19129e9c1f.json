@@ -1,0 +1,161 @@
+{
+  "uid" : "ae4c5f19129e9c1f",
+  "name" : "test_check_title[casedata1]",
+  "fullName" : "testCase.test_applyCentor.Test_applyCentor#test_check_title",
+  "historyId" : "4fe9410b7f3e42832ea1be01e8a871d3",
+  "time" : {
+    "start" : 1690785161478,
+    "stop" : 1690785162156,
+    "duration" : 678
+  },
+  "description" : "\n        从应用中心进入农e贷，检查标题\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    从应用中心进入农e贷，检查标题\n    :return:\n</code></pre>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '农e贷' == '农e贷1'\n  - 农e贷1\n  ?    -\n  + 农e贷",
+  "statusTrace" : "self = <test_applyCentor.Test_applyCentor object at 0x10a56e0d0>\ncasedata = {'check': {'title': '农e贷1'}, 'detail': '农e贷应用跳转检查', 'id': 'test_applyCentor001.2', 'screenshot': 'ned_success'}\n\n    @allure.story(\"点击各个应用中心，检查标题\")\n    @pytest.mark.parametrize('casedata',testData.get_testcase())\n    # @pytest.mark.dependency(name='test_login')\n    def test_check_title(self,casedata):\n        \"\"\"\n        从应用中心进入农e贷，检查标题\n        :return:\n        \"\"\"\n    \n        log = Log()\n        log.info(\"当前执行测试用例ID-> {0} ; 测试点-> {1}\".format(casedata['id'],casedata['detail']))\n        # 调用登录方法\n        applyCentor = ApplyCentor(self.driver)\n        if casedata['screenshot'] == 'sbed_success':\n            applyCentor.to_sbed_apply()\n            title = applyCentor.check_sbed_title()\n            assert title == casedata['check']['title']\n            applyCentor.back()\n        elif  casedata['screenshot'] == 'ned_success':\n            applyCentor.to_ned_apply()\n            title = applyCentor.check_ned_title()\n>           assert title == casedata['check']['title']\nE           AssertionError: assert '农e贷' == '农e贷1'\nE             - 农e贷1\nE             ?    -\nE             + 农e贷\n\ntestcase/test_applyCentor.py:52: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "class_setup_login",
+    "time" : {
+      "start" : 1690785126981,
+      "stop" : 1690785147823,
+      "duration" : 20842
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "session_setup_login",
+    "time" : {
+      "start" : 1690785106567,
+      "stop" : 1690785126972,
+      "duration" : 20405
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        从应用中心进入农e贷，检查标题\n        :return:\n        ",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert '农e贷' == '农e贷1'\n  - 农e贷1\n  ?    -\n  + 农e贷",
+    "statusTrace" : "self = <test_applyCentor.Test_applyCentor object at 0x10a56e0d0>\ncasedata = {'check': {'title': '农e贷1'}, 'detail': '农e贷应用跳转检查', 'id': 'test_applyCentor001.2', 'screenshot': 'ned_success'}\n\n    @allure.story(\"点击各个应用中心，检查标题\")\n    @pytest.mark.parametrize('casedata',testData.get_testcase())\n    # @pytest.mark.dependency(name='test_login')\n    def test_check_title(self,casedata):\n        \"\"\"\n        从应用中心进入农e贷，检查标题\n        :return:\n        \"\"\"\n    \n        log = Log()\n        log.info(\"当前执行测试用例ID-> {0} ; 测试点-> {1}\".format(casedata['id'],casedata['detail']))\n        # 调用登录方法\n        applyCentor = ApplyCentor(self.driver)\n        if casedata['screenshot'] == 'sbed_success':\n            applyCentor.to_sbed_apply()\n            title = applyCentor.check_sbed_title()\n            assert title == casedata['check']['title']\n            applyCentor.back()\n        elif  casedata['screenshot'] == 'ned_success':\n            applyCentor.to_ned_apply()\n            title = applyCentor.check_ned_title()\n>           assert title == casedata['check']['title']\nE           AssertionError: assert '农e贷' == '农e贷1'\nE             - 农e贷1\nE             ?    -\nE             + 农e贷\n\ntestcase/test_applyCentor.py:52: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c67e234939ef264e",
+      "name" : "log",
+      "source" : "c67e234939ef264e.txt",
+      "type" : "text/plain",
+      "size" : 96791
+    }, {
+      "uid" : "5abf8fefb34cdafa",
+      "name" : "stderr",
+      "source" : "5abf8fefb34cdafa.txt",
+      "type" : "text/plain",
+      "size" : 156
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "class_setup_login::0",
+    "time" : {
+      "start" : 1690785162374,
+      "stop" : 1690785162579,
+      "duration" : 205
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "session_setup_login::0",
+    "time" : {
+      "start" : 1690785220222,
+      "stop" : 1690785220417,
+      "duration" : 195
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "应用中心页面"
+  }, {
+    "name" : "story",
+    "value" : "点击各个应用中心，检查标题"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('class_setup_login')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_applyCentor"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_applyCentor"
+  }, {
+    "name" : "host",
+    "value" : "kongdeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "4242-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCase.test_applyCentor"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "casedata",
+    "value" : "{'id': 'test_applyCentor001.2', 'detail': '农e贷应用跳转检查', 'screenshot': 'ned_success', 'check': {'title': '农e贷1'}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "@pytest.mark.usefixtures('class_setup_login')" ]
+  },
+  "source" : "ae4c5f19129e9c1f.json",
+  "parameterValues" : [ "{'id': 'test_applyCentor001.2', 'detail': '农e贷应用跳转检查', 'screenshot': 'ned_success', 'check': {'title': '农e贷1'}}" ]
+}

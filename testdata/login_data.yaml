@@ -1,0 +1,9 @@
+-
+  id: test_login001.1
+  detail : 正常账号登录
+  screenshot : phone_pawd_success
+  data:
+    account: "67710"
+    password: "123456Aa"
+  check:
+    current_url: http://36.7.144.246:6071/fins-console-sso/index.html#/startUp

@@ -1,0 +1,168 @@
+{
+  "uid" : "6e07d491ff1ccbee",
+  "name" : "test_parentMenus[casedata0]",
+  "fullName" : "testCase.test_02_ned.test_01_ned.Test_ned#test_parentMenus",
+  "historyId" : "fcea7bdcbafa73098d8f7974422d2b0b",
+  "time" : {
+    "start" : 1702542095195,
+    "stop" : 1702542095363,
+    "duration" : 168
+  },
+  "description" : "\n        进入农e贷检查父级菜单\n        :param casedata:\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    进入农e贷检查父级菜单\n    :param casedata:\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "session_login",
+    "time" : {
+      "start" : 1702541974826,
+      "stop" : 1702542000131,
+      "duration" : 25305
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1702542094414,
+      "stop" : 1702542094492,
+      "duration" : 78
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1702541922876,
+      "stop" : 1702541922977,
+      "duration" : 101
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        进入农e贷检查父级菜单\n        :param casedata:\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "60fa38a4830448d9",
+      "name" : "log",
+      "source" : "60fa38a4830448d9.txt",
+      "type" : "text/plain",
+      "size" : 188147
+    }, {
+      "uid" : "b509986c80b9de61",
+      "name" : "stderr",
+      "source" : "b509986c80b9de61.txt",
+      "type" : "text/plain",
+      "size" : 138
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "session_login::0",
+    "time" : {
+      "start" : 1702542098440,
+      "stop" : 1702542098822,
+      "duration" : 382
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setup::0",
+    "time" : {
+      "start" : 1702542096175,
+      "stop" : 1702542098439,
+      "duration" : 2264
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "检查社保e贷父级菜单"
+  }, {
+    "name" : "feature",
+    "value" : "社保e贷页面"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('session_login')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCase.test_02_ned"
+  }, {
+    "name" : "suite",
+    "value" : "test_01_ned"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_ned"
+  }, {
+    "name" : "host",
+    "value" : "kongdeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "21168-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCase.test_02_ned.test_01_ned"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "casedata",
+    "value" : "{'id': 'test_ned002.1', 'detail': '父菜单校验', 'screenshot': 'parent_memus', 'check': {'menus': '进件管理 移交管理 贷后管理 贷款审批管理'}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('session_login')" ]
+  },
+  "source" : "6e07d491ff1ccbee.json",
+  "parameterValues" : [ "{'id': 'test_ned002.1', 'detail': '父菜单校验', 'screenshot': 'parent_memus', 'check': {'menus': '进件管理 移交管理 贷后管理 贷款审批管理'}}" ]
+}

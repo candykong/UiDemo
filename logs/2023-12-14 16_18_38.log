@@ -1,0 +1,10 @@
+[2023-12-14 16:20:31,130] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_dkjdcx001 ; 测试点-> 贷款进度查询列表标题
+[2023-12-14 16:20:32,865] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_dkjdcx002 ; 测试点-> 基础查询输入框
+[2023-12-14 16:20:33,132] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_dkjdcx003 ; 测试点-> 高级搜索字段名称
+[2023-12-14 16:20:33,574] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_dkjdcx004 ; 测试点-> 高级搜索-客户群体下拉框
+[2023-12-14 16:20:35,409] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_dkjdcx005 ; 测试点-> 高级搜索-当前进度下拉框
+[2023-12-14 16:20:36,386] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_dkjdcx006 ; 测试点-> 高级搜索-开始时间和结束时间默认值
+[2023-12-14 16:20:37,326] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_dkjdcx009 ; 测试点-> 列表表头字段检查
+[2023-12-14 16:20:37,388] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_dkjdcx010_1 ; 测试点-> 搜索按钮检查
+[2023-12-14 16:20:43,000] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_dkjdcx010_2 ; 测试点-> 重置按钮检查
+[2023-12-14 16:20:43,354] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_dkjdcx011 ; 测试点-> 点击客户姓名进入对应客户详情页

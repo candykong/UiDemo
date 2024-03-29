@@ -1,0 +1,2 @@
+[2023-12-05 15:40:57,701] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_sbed001.1 ; 测试点-> 首页个人信息
+[2023-12-05 15:40:57,926] [log.py|__console] [line:46] ERROR   : <pageObj.sbed.sbed_page.Sbed object at 0x10e455850>页面中未能找到('class name', 'mx-2.text-primary.text--darken-3')元素

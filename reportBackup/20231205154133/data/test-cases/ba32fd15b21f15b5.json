@@ -1,0 +1,165 @@
+{
+  "uid" : "ba32fd15b21f15b5",
+  "name" : "test_subMenus[casedata0]",
+  "fullName" : "testCase.test_01_sbed.test_01_sbed.Test_sbed#test_subMenus",
+  "historyId" : "7cbcaeead90c3d823c7ced83261e81ef",
+  "time" : {
+    "start" : 1701762058774,
+    "stop" : 1701762059507,
+    "duration" : 733
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1701762057534,
+      "stop" : 1701762057698,
+      "duration" : 164
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1701761980923,
+      "stop" : 1701761981349,
+      "duration" : 426
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "session_login",
+    "time" : {
+      "start" : 1701762010707,
+      "stop" : 1701762035669,
+      "duration" : 24962
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "caa6dbc4b52fc86a",
+      "name" : "log",
+      "source" : "caa6dbc4b52fc86a.txt",
+      "type" : "text/plain",
+      "size" : 282809
+    }, {
+      "uid" : "339dd992359e1a5d",
+      "name" : "stderr",
+      "source" : "339dd992359e1a5d.txt",
+      "type" : "text/plain",
+      "size" : 151
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "setup::0",
+    "time" : {
+      "start" : 1701762062686,
+      "stop" : 1701762065022,
+      "duration" : 2336
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "session_login::0",
+    "time" : {
+      "start" : 1701762092915,
+      "stop" : 1701762093245,
+      "duration" : 330
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "社保e贷页面"
+  }, {
+    "name" : "story",
+    "value" : "检查社保e贷各个父级菜单的子菜单"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('session_login')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCase.test_01_sbed"
+  }, {
+    "name" : "suite",
+    "value" : "test_01_sbed"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_sbed"
+  }, {
+    "name" : "host",
+    "value" : "kongdeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "1684-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCase.test_01_sbed.test_01_sbed"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "casedata",
+    "value" : "{'id': 'test_sbed001.1', 'detail': '进件管理子菜单校验', 'screenshot': 'jjgl_submemus', 'check': {'submenus': '贷款进度查询 复核信息查询 贷款转派管理 贷款归档管理'}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('session_login')" ]
+  },
+  "source" : "ba32fd15b21f15b5.json",
+  "parameterValues" : [ "{'id': 'test_sbed001.1', 'detail': '进件管理子菜单校验', 'screenshot': 'jjgl_submemus', 'check': {'submenus': '贷款进度查询 复核信息查询 贷款转派管理 贷款归档管理'}}" ]
+}

@@ -1,0 +1,4 @@
+[32mINFO    [0m root:log.py:40 当前执行测试用例ID-> test_sbed001.6 ; 测试点-> 贷款审批管理子菜单校验
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:358 POST http://localhost:62620/session/08b457e0192257281366aceca8f56c04/url {"url": "http://36.7.144.246:6071/fins-console-sso/index.html#/startUp"}
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:380 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:409 Finished Request

@@ -1,0 +1,30 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Jul 31 14:32:27 CST 2023","Mon Jul 31 14:32:41 CST 2023","13596","testCase","test_applyCentor","Test_applyCentor","","","test_check_title[casedata0]","
+        从应用中心进入农e贷，检查标题
+        :return:
+        "
+"passed","Tue Aug 15 09:49:19 CST 2023","Tue Aug 15 09:49:20 CST 2023","706","testCase","test_sbed","Test_sbed","","","test_subMenus[casedata3]",""
+"passed","Mon Jul 31 14:33:36 CST 2023","Mon Jul 31 14:33:37 CST 2023","843","testCase","test_sbed","Test_sbed","","","test_parentMenus[casedata0]",""
+"passed","Tue Aug 15 09:49:19 CST 2023","Tue Aug 15 09:49:19 CST 2023","727","testCase","test_sbed","Test_sbed","","","test_subMenus[casedata2]",""
+"failed","Mon Jul 31 14:32:41 CST 2023","Mon Jul 31 14:32:42 CST 2023","678","testCase","test_applyCentor","Test_applyCentor","","","test_check_title[casedata1]","
+        从应用中心进入农e贷，检查标题
+        :return:
+        "
+"passed","Tue Aug 15 09:49:17 CST 2023","Tue Aug 15 09:49:17 CST 2023","195","testCase","test_sbed","Test_sbed","","","test_parentMenus[casedata0]",""
+"passed","Tue Aug 15 09:49:06 CST 2023","Tue Aug 15 09:49:17 CST 2023","10861","testCase","test_sbed","Test_sbed","","","test_accountInfo[casedata0]","
+        从应用中心进入社保e贷，检查标题
+        :return:
+        "
+"passed","Tue Aug 15 09:49:18 CST 2023","Tue Aug 15 09:49:19 CST 2023","793","testCase","test_sbed","Test_sbed","","","test_subMenus[casedata1]",""
+"passed","Mon Jul 31 14:32:46 CST 2023","Mon Jul 31 14:33:02 CST 2023","16418","testCase","test_login","Test_login","","","test_login[casedata0]","
+        登录测试
+        :param datayaml: 加载login_data登录测试数据
+        :return:
+        "
+"passed","Tue Aug 15 09:49:17 CST 2023","Tue Aug 15 09:49:18 CST 2023","711","testCase","test_sbed","Test_sbed","","","test_subMenus[casedata0]",""
+"passed","Tue Aug 15 09:49:20 CST 2023","Tue Aug 15 09:49:21 CST 2023","643","testCase","test_sbed","Test_sbed","","","test_subMenus[casedata4]",""
+"passed","Tue Aug 15 09:49:21 CST 2023","Tue Aug 15 09:49:21 CST 2023","1","testCase","test_sbed","Test_sbed","","","test_subMenus[casedata5]",""
+"passed","Mon Jul 31 14:33:23 CST 2023","Mon Jul 31 14:33:34 CST 2023","10702","testCase","test_sbed","Test_sbed","","","test_accountInfo[casedata0]","
+        从应用中心进入社保e贷，检查标题
+        :return:
+        "

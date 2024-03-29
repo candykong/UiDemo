@@ -1,0 +1,168 @@
+{
+  "uid" : "a8578f1f115b564e",
+  "name" : "test_title[casedata0]",
+  "fullName" : "testCase.test_01_sbed.test_01_jjgl.test_01_dkjdcx.Test_dkjdcx#test_title",
+  "historyId" : "1043c6e237e07ba2d552e266523ea89d",
+  "time" : {
+    "start" : 1701762066670,
+    "stop" : 1701762068187,
+    "duration" : 1517
+  },
+  "description" : "\n        检查标题\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    检查标题\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1701762065028,
+      "stop" : 1701762066667,
+      "duration" : 1639
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1701761980923,
+      "stop" : 1701761981349,
+      "duration" : 426
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "session_login",
+    "time" : {
+      "start" : 1701762010707,
+      "stop" : 1701762035669,
+      "duration" : 24962
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        检查标题\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6ec378cbb1e547d1",
+      "name" : "log",
+      "source" : "6ec378cbb1e547d1.txt",
+      "type" : "text/plain",
+      "size" : 236969
+    }, {
+      "uid" : "cc4d0bf4461c57f7",
+      "name" : "stderr",
+      "source" : "cc4d0bf4461c57f7.txt",
+      "type" : "text/plain",
+      "size" : 154
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "setup::0",
+    "time" : {
+      "start" : 1701762085979,
+      "stop" : 1701762088849,
+      "duration" : 2870
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "session_login::0",
+    "time" : {
+      "start" : 1701762092915,
+      "stop" : 1701762093245,
+      "duration" : 330
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "检查贷款进度查询也没标题"
+  }, {
+    "name" : "feature",
+    "value" : "社保e贷-进件管理-贷款进度查询页面"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('session_login')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCase.test_01_sbed.test_01_jjgl"
+  }, {
+    "name" : "suite",
+    "value" : "test_01_dkjdcx"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_dkjdcx"
+  }, {
+    "name" : "host",
+    "value" : "kongdeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "1684-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCase.test_01_sbed.test_01_jjgl.test_01_dkjdcx"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "casedata",
+    "value" : "{'id': 'test_dkjdcx001', 'detail': '贷款进度查询列表标题', 'screenshot': 'title', 'check': {'title': '贷款进度查询'}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('session_login')" ]
+  },
+  "source" : "a8578f1f115b564e.json",
+  "parameterValues" : [ "{'id': 'test_dkjdcx001', 'detail': '贷款进度查询列表标题', 'screenshot': 'title', 'check': {'title': '贷款进度查询'}}" ]
+}

@@ -1,0 +1,131 @@
+{
+  "uid" : "544825b2251f21ef",
+  "name" : "test_subMenus[casedata0]",
+  "fullName" : "testCase.test_sbed.Test_sbed#test_subMenus",
+  "historyId" : "8298b4a12eb048028a14d8d7cd1ab644",
+  "time" : {
+    "start" : 1692063341173,
+    "stop" : 1692063361386,
+    "duration" : 20213
+  },
+  "status" : "broken",
+  "statusMessage" : "TypeError: 'NoneType' object is not iterable",
+  "statusTrace" : "self = <test_sbed.Test_sbed object at 0x10c0093a0>\ncasedata = {'check': {'submenus': '贷款进度查询 复核信息查询 贷款转派管理 贷款归档管理'}, 'detail': '进件管理子菜单校验', 'id': 'test_sbed001.1', 'screenshot': 'jjgl_submemus'}\n\n    @allure.story(\"检查社保e贷各个父级菜单的子菜单\")\n    @pytest.mark.parametrize('casedata',testData.get_testcase(\"test_sbed003\"))\n    def test_subMenus(self,casedata):\n        log.info(\"当前执行测试用例ID-> {0} ; 测试点-> {1}\".format(casedata['id'], casedata['detail']))\n        sbed = Sbed(self.driver)\n        if casedata['screenshot'] == 'jjgl_submemus':\n>           jjgl_submenus = sbed.check_jjgl_sbumenus()\n\ntestCase/test_sbed.py:78: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <pageObj.sbed_page.Sbed object at 0x10c039040>\n\n    def check_jjgl_sbumenus(self):\n        \"\"\"\n        获取进件管理子菜单\n        :return:\n        \"\"\"\n        self.jjgl_Menu_click()\n        elements = self.find_elements(*self.jjgl_check_loc)\n        menus = []\n>       for element in elements:\nE       TypeError: 'NoneType' object is not iterable\n\npageObj/sbed_page.py:180: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1692063302915,
+      "stop" : 1692063302993,
+      "duration" : 78
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "to_sbed",
+    "time" : {
+      "start" : 1692063302993,
+      "stop" : 1692063329343,
+      "duration" : 26350
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TypeError: 'NoneType' object is not iterable",
+    "statusTrace" : "self = <test_sbed.Test_sbed object at 0x10c0093a0>\ncasedata = {'check': {'submenus': '贷款进度查询 复核信息查询 贷款转派管理 贷款归档管理'}, 'detail': '进件管理子菜单校验', 'id': 'test_sbed001.1', 'screenshot': 'jjgl_submemus'}\n\n    @allure.story(\"检查社保e贷各个父级菜单的子菜单\")\n    @pytest.mark.parametrize('casedata',testData.get_testcase(\"test_sbed003\"))\n    def test_subMenus(self,casedata):\n        log.info(\"当前执行测试用例ID-> {0} ; 测试点-> {1}\".format(casedata['id'], casedata['detail']))\n        sbed = Sbed(self.driver)\n        if casedata['screenshot'] == 'jjgl_submemus':\n>           jjgl_submenus = sbed.check_jjgl_sbumenus()\n\ntestCase/test_sbed.py:78: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <pageObj.sbed_page.Sbed object at 0x10c039040>\n\n    def check_jjgl_sbumenus(self):\n        \"\"\"\n        获取进件管理子菜单\n        :return:\n        \"\"\"\n        self.jjgl_Menu_click()\n        elements = self.find_elements(*self.jjgl_check_loc)\n        menus = []\n>       for element in elements:\nE       TypeError: 'NoneType' object is not iterable\n\npageObj/sbed_page.py:180: TypeError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ef0075f821cd3f95",
+      "name" : "log",
+      "source" : "ef0075f821cd3f95.txt",
+      "type" : "text/plain",
+      "size" : 1837856
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "to_sbed::0",
+    "time" : {
+      "start" : 1692063385452,
+      "stop" : 1692063385739,
+      "duration" : 287
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "检查社保e贷各个父级菜单的子菜单"
+  }, {
+    "name" : "feature",
+    "value" : "社保e贷页面"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('to_sbed')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_sbed"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_sbed"
+  }, {
+    "name" : "host",
+    "value" : "kongdeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "1337-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCase.test_sbed"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "casedata",
+    "value" : "{'id': 'test_sbed001.1', 'detail': '进件管理子菜单校验', 'screenshot': 'jjgl_submemus', 'check': {'submenus': '贷款进度查询 复核信息查询 贷款转派管理 贷款归档管理'}}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('to_sbed')" ]
+  },
+  "source" : "544825b2251f21ef.json",
+  "parameterValues" : [ "{'id': 'test_sbed001.1', 'detail': '进件管理子菜单校验', 'screenshot': 'jjgl_submemus', 'check': {'submenus': '贷款进度查询 复核信息查询 贷款转派管理 贷款归档管理'}}" ]
+}

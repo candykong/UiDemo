@@ -1,0 +1,704 @@
+{
+  "7cbcaeead90c3d823c7ced83261e81ef" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "60eff8ac1ec3473",
+      "status" : "passed",
+      "time" : {
+        "start" : 1702542766421,
+        "stop" : 1702542766950,
+        "duration" : 529
+      }
+    } ]
+  },
+  "248587ce5c874ab14eb55dc050ba41a8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "60006d6d78e6226f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1702542775527,
+        "stop" : 1702542775740,
+        "duration" : 213
+      }
+    } ]
+  },
+  "dfa3c19f5e63c45bbad30dacff39a612" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5f1b3e25b7a51951",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.JavascriptException: Message: javascript error: Cannot read properties of undefined (reading 'click')\n  (Session info: chrome=115.0.5790.114)\nStacktrace:\n0   chromedriver                        0x0000000104ab86b8 chromedriver + 4937400\n1   chromedriver                        0x0000000104aafb73 chromedriver + 4901747\n2   chromedriver                        0x000000010466d616 chromedriver + 435734\n3   chromedriver                        0x0000000104672adf chromedriver + 457439\n4   chromedriver                        0x00000001046759bf chromedriver + 469439\n5   chromedriver                        0x00000001046f0bce chromedriver + 973774\n6   chromedriver                        0x00000001046d5012 chromedriver + 860178\n7   chromedriver                        0x00000001046efe76 chromedriver + 970358\n8   chromedriver                        0x00000001046d4de3 chromedriver + 859619\n9   chromedriver                        0x00000001046a2d7f chromedriver + 654719\n10  chromedriver                        0x00000001046a40de chromedriver + 659678\n11  chromedriver                        0x0000000104a742ad chromedriver + 4657837\n12  chromedriver                        0x0000000104a79130 chromedriver + 4677936\n13  chromedriver                        0x0000000104a7fdef chromedriver + 4705775\n14  chromedriver                        0x0000000104a7a05a chromedriver + 4681818\n15  chromedriver                        0x0000000104a4c92c chromedriver + 4495660\n16  chromedriver                        0x0000000104a97838 chromedriver + 4802616\n17  chromedriver                        0x0000000104a979b7 chromedriver + 4802999\n18  chromedriver                        0x0000000104aa899f chromedriver + 4872607\n19  libsystem_pthread.dylib             0x00007fff203788fc _pthread_start + 224\n20  libsystem_pthread.dylib             0x00007fff20374443 thread_start + 15",
+      "time" : {
+        "start" : 1702542817861,
+        "stop" : 1702542817861,
+        "duration" : 0
+      }
+    } ]
+  },
+  "45add0fd93075523548eda35977491f5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5d2e91b41f6cb301",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.JavascriptException: Message: javascript error: Cannot read properties of undefined (reading 'click')\n  (Session info: chrome=115.0.5790.114)\nStacktrace:\n0   chromedriver                        0x0000000104ab86b8 chromedriver + 4937400\n1   chromedriver                        0x0000000104aafb73 chromedriver + 4901747\n2   chromedriver                        0x000000010466d616 chromedriver + 435734\n3   chromedriver                        0x0000000104672adf chromedriver + 457439\n4   chromedriver                        0x00000001046759bf chromedriver + 469439\n5   chromedriver                        0x00000001046f0bce chromedriver + 973774\n6   chromedriver                        0x00000001046d5012 chromedriver + 860178\n7   chromedriver                        0x00000001046efe76 chromedriver + 970358\n8   chromedriver                        0x00000001046d4de3 chromedriver + 859619\n9   chromedriver                        0x00000001046a2d7f chromedriver + 654719\n10  chromedriver                        0x00000001046a40de chromedriver + 659678\n11  chromedriver                        0x0000000104a742ad chromedriver + 4657837\n12  chromedriver                        0x0000000104a79130 chromedriver + 4677936\n13  chromedriver                        0x0000000104a7fdef chromedriver + 4705775\n14  chromedriver                        0x0000000104a7a05a chromedriver + 4681818\n15  chromedriver                        0x0000000104a4c92c chromedriver + 4495660\n16  chromedriver                        0x0000000104a97838 chromedriver + 4802616\n17  chromedriver                        0x0000000104a979b7 chromedriver + 4802999\n18  chromedriver                        0x0000000104aa899f chromedriver + 4872607\n19  libsystem_pthread.dylib             0x00007fff203788fc _pthread_start + 224\n20  libsystem_pthread.dylib             0x00007fff20374443 thread_start + 15",
+      "time" : {
+        "start" : 1702542818706,
+        "stop" : 1702542818706,
+        "duration" : 0
+      }
+    } ]
+  },
+  "3dcbe76ebc1f86b7e42470f142bdc708" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a818cb4e00c57802",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.JavascriptException: Message: javascript error: Cannot read properties of undefined (reading 'click')\n  (Session info: chrome=115.0.5790.114)\nStacktrace:\n0   chromedriver                        0x0000000104ab86b8 chromedriver + 4937400\n1   chromedriver                        0x0000000104aafb73 chromedriver + 4901747\n2   chromedriver                        0x000000010466d616 chromedriver + 435734\n3   chromedriver                        0x0000000104672adf chromedriver + 457439\n4   chromedriver                        0x00000001046759bf chromedriver + 469439\n5   chromedriver                        0x00000001046f0bce chromedriver + 973774\n6   chromedriver                        0x00000001046d5012 chromedriver + 860178\n7   chromedriver                        0x00000001046efe76 chromedriver + 970358\n8   chromedriver                        0x00000001046d4de3 chromedriver + 859619\n9   chromedriver                        0x00000001046a2d7f chromedriver + 654719\n10  chromedriver                        0x00000001046a40de chromedriver + 659678\n11  chromedriver                        0x0000000104a742ad chromedriver + 4657837\n12  chromedriver                        0x0000000104a79130 chromedriver + 4677936\n13  chromedriver                        0x0000000104a7fdef chromedriver + 4705775\n14  chromedriver                        0x0000000104a7a05a chromedriver + 4681818\n15  chromedriver                        0x0000000104a4c92c chromedriver + 4495660\n16  chromedriver                        0x0000000104a97838 chromedriver + 4802616\n17  chromedriver                        0x0000000104a979b7 chromedriver + 4802999\n18  chromedriver                        0x0000000104aa899f chromedriver + 4872607\n19  libsystem_pthread.dylib             0x00007fff203788fc _pthread_start + 224\n20  libsystem_pthread.dylib             0x00007fff20374443 thread_start + 15",
+      "time" : {
+        "start" : 1702542818296,
+        "stop" : 1702542818296,
+        "duration" : 0
+      }
+    } ]
+  },
+  "fcea7bdcbafa73098d8f7974422d2b0b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2b7bc9f66b0b8a6",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'click'",
+      "time" : {
+        "start" : 1702542850781,
+        "stop" : 1702542850781,
+        "duration" : 0
+      }
+    } ]
+  },
+  "3a78d65a7e0851e412a701e77fa7d766" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2331f1f4d6aaec1a",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'click'",
+      "time" : {
+        "start" : 1702542850822,
+        "stop" : 1702542850822,
+        "duration" : 0
+      }
+    } ]
+  },
+  "9c4a8e6690bd791ab93a5f0623cd66a3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9d75e1ef3fdf167",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.JavascriptException: Message: javascript error: Cannot read properties of undefined (reading 'click')\n  (Session info: chrome=115.0.5790.114)\nStacktrace:\n0   chromedriver                        0x0000000104ab86b8 chromedriver + 4937400\n1   chromedriver                        0x0000000104aafb73 chromedriver + 4901747\n2   chromedriver                        0x000000010466d616 chromedriver + 435734\n3   chromedriver                        0x0000000104672adf chromedriver + 457439\n4   chromedriver                        0x00000001046759bf chromedriver + 469439\n5   chromedriver                        0x00000001046f0bce chromedriver + 973774\n6   chromedriver                        0x00000001046d5012 chromedriver + 860178\n7   chromedriver                        0x00000001046efe76 chromedriver + 970358\n8   chromedriver                        0x00000001046d4de3 chromedriver + 859619\n9   chromedriver                        0x00000001046a2d7f chromedriver + 654719\n10  chromedriver                        0x00000001046a40de chromedriver + 659678\n11  chromedriver                        0x0000000104a742ad chromedriver + 4657837\n12  chromedriver                        0x0000000104a79130 chromedriver + 4677936\n13  chromedriver                        0x0000000104a7fdef chromedriver + 4705775\n14  chromedriver                        0x0000000104a7a05a chromedriver + 4681818\n15  chromedriver                        0x0000000104a4c92c chromedriver + 4495660\n16  chromedriver                        0x0000000104a97838 chromedriver + 4802616\n17  chromedriver                        0x0000000104a979b7 chromedriver + 4802999\n18  chromedriver                        0x0000000104aa899f chromedriver + 4872607\n19  libsystem_pthread.dylib             0x00007fff203788fc _pthread_start + 224\n20  libsystem_pthread.dylib             0x00007fff20374443 thread_start + 15",
+      "time" : {
+        "start" : 1702542817015,
+        "stop" : 1702542817015,
+        "duration" : 0
+      }
+    } ]
+  },
+  "5e73001114f87d7d906fc18efd45253e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2684a66edd70a366",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.JavascriptException: Message: javascript error: Cannot read properties of undefined (reading 'click')\n  (Session info: chrome=115.0.5790.114)\nStacktrace:\n0   chromedriver                        0x0000000104ab86b8 chromedriver + 4937400\n1   chromedriver                        0x0000000104aafb73 chromedriver + 4901747\n2   chromedriver                        0x000000010466d616 chromedriver + 435734\n3   chromedriver                        0x0000000104672adf chromedriver + 457439\n4   chromedriver                        0x00000001046759bf chromedriver + 469439\n5   chromedriver                        0x00000001046f0bce chromedriver + 973774\n6   chromedriver                        0x00000001046d5012 chromedriver + 860178\n7   chromedriver                        0x00000001046efe76 chromedriver + 970358\n8   chromedriver                        0x00000001046d4de3 chromedriver + 859619\n9   chromedriver                        0x00000001046a2d7f chromedriver + 654719\n10  chromedriver                        0x00000001046a40de chromedriver + 659678\n11  chromedriver                        0x0000000104a742ad chromedriver + 4657837\n12  chromedriver                        0x0000000104a79130 chromedriver + 4677936\n13  chromedriver                        0x0000000104a7fdef chromedriver + 4705775\n14  chromedriver                        0x0000000104a7a05a chromedriver + 4681818\n15  chromedriver                        0x0000000104a4c92c chromedriver + 4495660\n16  chromedriver                        0x0000000104a97838 chromedriver + 4802616\n17  chromedriver                        0x0000000104a979b7 chromedriver + 4802999\n18  chromedriver                        0x0000000104aa899f chromedriver + 4872607\n19  libsystem_pthread.dylib             0x00007fff203788fc _pthread_start + 224\n20  libsystem_pthread.dylib             0x00007fff20374443 thread_start + 15",
+      "time" : {
+        "start" : 1702542817512,
+        "stop" : 1702542817512,
+        "duration" : 0
+      }
+    } ]
+  },
+  "1043c6e237e07ba2d552e266523ea89d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "77f8126d562d3c3d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1702542773871,
+        "stop" : 1702542775519,
+        "duration" : 1648
+      }
+    } ]
+  },
+  "94e16acc168461d1e4bfb1ed965906f3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "49d0791e73e9d513",
+      "status" : "passed",
+      "time" : {
+        "start" : 1702542776018,
+        "stop" : 1702542776687,
+        "duration" : 669
+      }
+    } ]
+  },
+  "65b84641de0cd6cbd033ca91cc774966" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d1fa802d7f49cf4e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.JavascriptException: Message: javascript error: Cannot read properties of undefined (reading 'click')\n  (Session info: chrome=115.0.5790.114)\nStacktrace:\n0   chromedriver                        0x0000000104ab86b8 chromedriver + 4937400\n1   chromedriver                        0x0000000104aafb73 chromedriver + 4901747\n2   chromedriver                        0x000000010466d616 chromedriver + 435734\n3   chromedriver                        0x0000000104672adf chromedriver + 457439\n4   chromedriver                        0x00000001046759bf chromedriver + 469439\n5   chromedriver                        0x00000001046f0bce chromedriver + 973774\n6   chromedriver                        0x00000001046d5012 chromedriver + 860178\n7   chromedriver                        0x00000001046efe76 chromedriver + 970358\n8   chromedriver                        0x00000001046d4de3 chromedriver + 859619\n9   chromedriver                        0x00000001046a2d7f chromedriver + 654719\n10  chromedriver                        0x00000001046a40de chromedriver + 659678\n11  chromedriver                        0x0000000104a742ad chromedriver + 4657837\n12  chromedriver                        0x0000000104a79130 chromedriver + 4677936\n13  chromedriver                        0x0000000104a7fdef chromedriver + 4705775\n14  chromedriver                        0x0000000104a7a05a chromedriver + 4681818\n15  chromedriver                        0x0000000104a4c92c chromedriver + 4495660\n16  chromedriver                        0x0000000104a97838 chromedriver + 4802616\n17  chromedriver                        0x0000000104a979b7 chromedriver + 4802999\n18  chromedriver                        0x0000000104aa899f chromedriver + 4872607\n19  libsystem_pthread.dylib             0x00007fff203788fc _pthread_start + 224\n20  libsystem_pthread.dylib             0x00007fff20374443 thread_start + 15",
+      "time" : {
+        "start" : 1702542813988,
+        "stop" : 1702542813988,
+        "duration" : 0
+      }
+    } ]
+  },
+  "d8bb5400b34e9b35bd40ae4956d80d3e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "62969bd5e4bc443",
+      "status" : "passed",
+      "time" : {
+        "start" : 1702542764131,
+        "stop" : 1702542765068,
+        "duration" : 937
+      }
+    } ]
+  },
+  "d17775a3160acf52f4bf8b6c5b4163fb" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dbaea92fa6fd4ba1",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '电调员管理 智能外呼查询...客户贷后电调 贷后电调复核' == '电调员管理 智能外呼查询...调 贷后电调复核 通话记录'\n  - 电调员管理 智能外呼查询 客户授信电调 客户用信电调 客户贷后电调 贷后电调复核 通话记录\n  ?                                         -----\n  + 电调员管理 智能外呼查询 客户授信电调 客户用信电调 客户贷后电调 贷后电调复核",
+      "time" : {
+        "start" : 1702542766959,
+        "stop" : 1702542767738,
+        "duration" : 779
+      }
+    } ]
+  },
+  "9a70759ac3b26b2778554dd08c8fd784" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "308c3568e4ba2ce3",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.JavascriptException: Message: javascript error: Cannot read properties of undefined (reading 'click')\n  (Session info: chrome=115.0.5790.114)\nStacktrace:\n0   chromedriver                        0x0000000104ab86b8 chromedriver + 4937400\n1   chromedriver                        0x0000000104aafb73 chromedriver + 4901747\n2   chromedriver                        0x000000010466d616 chromedriver + 435734\n3   chromedriver                        0x0000000104672adf chromedriver + 457439\n4   chromedriver                        0x00000001046759bf chromedriver + 469439\n5   chromedriver                        0x00000001046f0bce chromedriver + 973774\n6   chromedriver                        0x00000001046d5012 chromedriver + 860178\n7   chromedriver                        0x00000001046efe76 chromedriver + 970358\n8   chromedriver                        0x00000001046d4de3 chromedriver + 859619\n9   chromedriver                        0x00000001046a2d7f chromedriver + 654719\n10  chromedriver                        0x00000001046a40de chromedriver + 659678\n11  chromedriver                        0x0000000104a742ad chromedriver + 4657837\n12  chromedriver                        0x0000000104a79130 chromedriver + 4677936\n13  chromedriver                        0x0000000104a7fdef chromedriver + 4705775\n14  chromedriver                        0x0000000104a7a05a chromedriver + 4681818\n15  chromedriver                        0x0000000104a4c92c chromedriver + 4495660\n16  chromedriver                        0x0000000104a97838 chromedriver + 4802616\n17  chromedriver                        0x0000000104a979b7 chromedriver + 4802999\n18  chromedriver                        0x0000000104aa899f chromedriver + 4872607\n19  libsystem_pthread.dylib             0x00007fff203788fc _pthread_start + 224\n20  libsystem_pthread.dylib             0x00007fff20374443 thread_start + 15",
+      "time" : {
+        "start" : 1702542818585,
+        "stop" : 1702542818585,
+        "duration" : 0
+      }
+    } ]
+  },
+  "64cba11585e144eb8d016228e7e04f8d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9f7438a381f89160",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'click'",
+      "time" : {
+        "start" : 1702542819051,
+        "stop" : 1702542819051,
+        "duration" : 0
+      }
+    } ]
+  },
+  "8d51a43fe10edffd9712f456b101285c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "359eb21cab11d220",
+      "status" : "passed",
+      "time" : {
+        "start" : 1702542776695,
+        "stop" : 1702542777623,
+        "duration" : 928
+      }
+    } ]
+  },
+  "99c8a838fb85c54dddfbe901750e9327" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9315999a2dc6cf90",
+      "status" : "passed",
+      "time" : {
+        "start" : 1702542692504,
+        "stop" : 1702542716494,
+        "duration" : 23990
+      }
+    } ]
+  },
+  "add0cd3dd2e8c5fe2b575cc9593d0900" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9d2b5e2090144693",
+      "status" : "passed",
+      "time" : {
+        "start" : 1702542758119,
+        "stop" : 1702542761024,
+        "duration" : 2905
+      }
+    } ]
+  },
+  "104e30c9bb373e18ed548cadafefc2a7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "872a2e81641dc5f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1702542767755,
+        "stop" : 1702542768687,
+        "duration" : 932
+      }
+    } ]
+  },
+  "13c91e51506383fed410efc1e2cd899e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4166ca1dc65cf5b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1702542777635,
+        "stop" : 1702542779005,
+        "duration" : 1370
+      }
+    } ]
+  },
+  "27f3cd4372725ebd299d5dfe8f3339fe" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "33c39266b358e3ef",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '*珊' == '*'\n  - *\n  + *珊",
+      "time" : {
+        "start" : 1702542786143,
+        "stop" : 1702542811472,
+        "duration" : 25329
+      }
+    } ]
+  },
+  "19ea0f4231a131fd365b543521b991a4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b36071055540a0e4",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.JavascriptException: Message: javascript error: Cannot read properties of undefined (reading 'click')\n  (Session info: chrome=115.0.5790.114)\nStacktrace:\n0   chromedriver                        0x0000000104ab86b8 chromedriver + 4937400\n1   chromedriver                        0x0000000104aafb73 chromedriver + 4901747\n2   chromedriver                        0x000000010466d616 chromedriver + 435734\n3   chromedriver                        0x0000000104672adf chromedriver + 457439\n4   chromedriver                        0x00000001046759bf chromedriver + 469439\n5   chromedriver                        0x00000001046f0bce chromedriver + 973774\n6   chromedriver                        0x00000001046d5012 chromedriver + 860178\n7   chromedriver                        0x00000001046efe76 chromedriver + 970358\n8   chromedriver                        0x00000001046d4de3 chromedriver + 859619\n9   chromedriver                        0x00000001046a2d7f chromedriver + 654719\n10  chromedriver                        0x00000001046a40de chromedriver + 659678\n11  chromedriver                        0x0000000104a742ad chromedriver + 4657837\n12  chromedriver                        0x0000000104a79130 chromedriver + 4677936\n13  chromedriver                        0x0000000104a7fdef chromedriver + 4705775\n14  chromedriver                        0x0000000104a7a05a chromedriver + 4681818\n15  chromedriver                        0x0000000104a4c92c chromedriver + 4495660\n16  chromedriver                        0x0000000104a97838 chromedriver + 4802616\n17  chromedriver                        0x0000000104a979b7 chromedriver + 4802999\n18  chromedriver                        0x0000000104aa899f chromedriver + 4872607\n19  libsystem_pthread.dylib             0x00007fff203788fc _pthread_start + 224\n20  libsystem_pthread.dylib             0x00007fff20374443 thread_start + 15",
+      "time" : {
+        "start" : 1702542817650,
+        "stop" : 1702542817650,
+        "duration" : 0
+      }
+    } ]
+  },
+  "32382d7e4bbcd962ca8bd3de371ffaec" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6739da30efd8276a",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '进件管理 电调管理 贷后...理 业务配置 贷款审批管理' == '进件管理 电调管理 贷后...置 贷款审批管理 续贷管理'\n  Skipping 38 identical leading characters in diff, use -v to show\n  - 业务配置 贷款审批管理 续贷管理\n  ?            -----\n  + 业务配置 贷款审批管理",
+      "time" : {
+        "start" : 1702542765082,
+        "stop" : 1702542766085,
+        "duration" : 1003
+      }
+    } ]
+  },
+  "33f38afa0ac91ec1e9a25157bb565279" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5c6419e46f083d8e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1702542779027,
+        "stop" : 1702542780098,
+        "duration" : 1071
+      }
+    } ]
+  },
+  "76202505d0f6216e6176abcc1a9ee877" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f9b08d5fa80203ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1702542741562,
+        "stop" : 1702542758105,
+        "duration" : 16543
+      }
+    } ]
+  },
+  "1805f9b3e8af6c8b1829388d21268423" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6c3c1383e6d03345",
+      "status" : "passed",
+      "time" : {
+        "start" : 1702542780112,
+        "stop" : 1702542780178,
+        "duration" : 66
+      }
+    } ]
+  },
+  "64c50f2d764eae90297b0043a482f479" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cb7a8a14b7776caf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1702542785864,
+        "stop" : 1702542786131,
+        "duration" : 267
+      }
+    } ]
+  },
+  "5d9b9be272a9e9000b86a65dd45fc2c7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9e22df2c1ce12f7c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1702542769466,
+        "stop" : 1702542770123,
+        "duration" : 657
+      }
+    } ]
+  },
+  "da4eefbb0f27e4f20739053a39ceb87c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b5603c5352c6f943",
+      "status" : "passed",
+      "time" : {
+        "start" : 1702542768703,
+        "stop" : 1702542769459,
+        "duration" : 756
+      }
+    } ]
+  },
+  "cf88e25ac16e8dab6f3fee84a5e222dd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2232a2f41bb8727",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.JavascriptException: Message: javascript error: Cannot read properties of undefined (reading 'click')\n  (Session info: chrome=115.0.5790.114)\nStacktrace:\n0   chromedriver                        0x0000000104ab86b8 chromedriver + 4937400\n1   chromedriver                        0x0000000104aafb73 chromedriver + 4901747\n2   chromedriver                        0x000000010466d616 chromedriver + 435734\n3   chromedriver                        0x0000000104672adf chromedriver + 457439\n4   chromedriver                        0x00000001046759bf chromedriver + 469439\n5   chromedriver                        0x00000001046f0bce chromedriver + 973774\n6   chromedriver                        0x00000001046d5012 chromedriver + 860178\n7   chromedriver                        0x00000001046efe76 chromedriver + 970358\n8   chromedriver                        0x00000001046d4de3 chromedriver + 859619\n9   chromedriver                        0x00000001046a2d7f chromedriver + 654719\n10  chromedriver                        0x00000001046a40de chromedriver + 659678\n11  chromedriver                        0x0000000104a742ad chromedriver + 4657837\n12  chromedriver                        0x0000000104a79130 chromedriver + 4677936\n13  chromedriver                        0x0000000104a7fdef chromedriver + 4705775\n14  chromedriver                        0x0000000104a7a05a chromedriver + 4681818\n15  chromedriver                        0x0000000104a4c92c chromedriver + 4495660\n16  chromedriver                        0x0000000104a97838 chromedriver + 4802616\n17  chromedriver                        0x0000000104a979b7 chromedriver + 4802999\n18  chromedriver                        0x0000000104aa899f chromedriver + 4872607\n19  libsystem_pthread.dylib             0x00007fff203788fc _pthread_start + 224\n20  libsystem_pthread.dylib             0x00007fff20374443 thread_start + 15",
+      "time" : {
+        "start" : 1702542818460,
+        "stop" : 1702542818460,
+        "duration" : 0
+      }
+    } ]
+  },
+  "596cfbf2646ca24a28734dc32d93b5fd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cd30cfdd8052ef7d",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'click'",
+      "time" : {
+        "start" : 1702542850804,
+        "stop" : 1702542850804,
+        "duration" : 0
+      }
+    } ]
+  },
+  "71625658b7617baf58d1baf9a6e99a74" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7c4992a28efcac10",
+      "status" : "passed",
+      "time" : {
+        "start" : 1702542770130,
+        "stop" : 1702542770132,
+        "duration" : 2
+      }
+    } ]
+  },
+  "3d87c1a3c3cef120a5845fb179f3bcb6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "67d7a495e4e685af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1702542780184,
+        "stop" : 1702542785854,
+        "duration" : 5670
+      }
+    } ]
+  },
+  "59f0d83178f678b608b0d52fd9c20b06" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "14202ce48ac811b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.JavascriptException: Message: javascript error: Cannot read properties of undefined (reading 'click')\n  (Session info: chrome=115.0.5790.114)\nStacktrace:\n0   chromedriver                        0x0000000104ab86b8 chromedriver + 4937400\n1   chromedriver                        0x0000000104aafb73 chromedriver + 4901747\n2   chromedriver                        0x000000010466d616 chromedriver + 435734\n3   chromedriver                        0x0000000104672adf chromedriver + 457439\n4   chromedriver                        0x00000001046759bf chromedriver + 469439\n5   chromedriver                        0x00000001046f0bce chromedriver + 973774\n6   chromedriver                        0x00000001046d5012 chromedriver + 860178\n7   chromedriver                        0x00000001046efe76 chromedriver + 970358\n8   chromedriver                        0x00000001046d4de3 chromedriver + 859619\n9   chromedriver                        0x00000001046a2d7f chromedriver + 654719\n10  chromedriver                        0x00000001046a40de chromedriver + 659678\n11  chromedriver                        0x0000000104a742ad chromedriver + 4657837\n12  chromedriver                        0x0000000104a79130 chromedriver + 4677936\n13  chromedriver                        0x0000000104a7fdef chromedriver + 4705775\n14  chromedriver                        0x0000000104a7a05a chromedriver + 4681818\n15  chromedriver                        0x0000000104a4c92c chromedriver + 4495660\n16  chromedriver                        0x0000000104a97838 chromedriver + 4802616\n17  chromedriver                        0x0000000104a979b7 chromedriver + 4802999\n18  chromedriver                        0x0000000104aa899f chromedriver + 4872607\n19  libsystem_pthread.dylib             0x00007fff203788fc _pthread_start + 224\n20  libsystem_pthread.dylib             0x00007fff20374443 thread_start + 15",
+      "time" : {
+        "start" : 1702542817979,
+        "stop" : 1702542817979,
+        "duration" : 0
+      }
+    } ]
+  },
+  "72de38c00fea7740d5eaa642a7264e74" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "69534a09b3f25ad4",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.JavascriptException: Message: javascript error: Cannot read properties of undefined (reading 'click')\n  (Session info: chrome=115.0.5790.114)\nStacktrace:\n0   chromedriver                        0x0000000104ab86b8 chromedriver + 4937400\n1   chromedriver                        0x0000000104aafb73 chromedriver + 4901747\n2   chromedriver                        0x000000010466d616 chromedriver + 435734\n3   chromedriver                        0x0000000104672adf chromedriver + 457439\n4   chromedriver                        0x00000001046759bf chromedriver + 469439\n5   chromedriver                        0x00000001046f0bce chromedriver + 973774\n6   chromedriver                        0x00000001046d5012 chromedriver + 860178\n7   chromedriver                        0x00000001046efe76 chromedriver + 970358\n8   chromedriver                        0x00000001046d4de3 chromedriver + 859619\n9   chromedriver                        0x00000001046a2d7f chromedriver + 654719\n10  chromedriver                        0x00000001046a40de chromedriver + 659678\n11  chromedriver                        0x0000000104a742ad chromedriver + 4657837\n12  chromedriver                        0x0000000104a79130 chromedriver + 4677936\n13  chromedriver                        0x0000000104a7fdef chromedriver + 4705775\n14  chromedriver                        0x0000000104a7a05a chromedriver + 4681818\n15  chromedriver                        0x0000000104a4c92c chromedriver + 4495660\n16  chromedriver                        0x0000000104a97838 chromedriver + 4802616\n17  chromedriver                        0x0000000104a979b7 chromedriver + 4802999\n18  chromedriver                        0x0000000104aa899f chromedriver + 4872607\n19  libsystem_pthread.dylib             0x00007fff203788fc _pthread_start + 224\n20  libsystem_pthread.dylib             0x00007fff20374443 thread_start + 15",
+      "time" : {
+        "start" : 1702542818927,
+        "stop" : 1702542818927,
+        "duration" : 0
+      }
+    } ]
+  }
+}

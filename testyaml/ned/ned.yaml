@@ -1,0 +1,52 @@
+- testinfo:
+    - id: test_ned001
+      title: 检查首页个人信息
+      info: 农e贷首页个人信息
+  check:
+    - element_info: mx-2.text-primary.text--darken-3
+      find_type: class name
+      operate_type: text
+      info: 账号名称
+    - element_info: py-2.text-color666
+      find_type: class name
+      operate_type: text
+      info: 所属机构
+    - element_info: mt-2.text-color666
+      find_type: class name
+      operate_type: text
+      info: 手机号
+
+- testinfo:
+    - id: test_ned002
+      title: 检查父级菜单
+      info: 父级菜单
+  check:
+    - element_info: el-submenu__title
+      find_type: class name
+      operate_type: text
+      info: 父级菜单
+
+- testinfo:
+    - id: test_ned003
+      title: 检查父级子菜单
+      info: 父级子菜单
+  testcase:
+    - element_info: //span[text()='进件管理']
+      find_type: xpath
+      operate_type: arguments[0].click();
+      info: 进件管理菜单
+    - element_info: //span[text()='贷款审批管理']
+      find_type: xpath
+      operate_type: arguments[0].click();
+      info: 贷款审批管理菜单
+  check:
+    - element_info: //span[text()='进件管理']/../following-sibling::ul//span
+      find_type: xpath
+      operate_type: text
+      info: 进件管理子菜单
+    - element_info: //span[text()='贷款审批管理']/../following-sibling::ul//span
+      find_type: xpath
+      operate_type: text
+      info: 贷款审批管理子菜单
+
+

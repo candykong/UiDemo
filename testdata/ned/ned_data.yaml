@@ -1,0 +1,29 @@
+test_ned001:
+  - id: test_ned001.1
+    detail: 首页个人信息
+    screenshot: account_info
+    check:
+      account: 孔志兵
+      org: 所属机构：海南省
+      phone: 手机号：13126552495
+
+test_ned002:
+  - id: test_ned002.1
+    detail: 父菜单校验
+    screenshot: parent_memus
+    check:
+      menus: 进件管理 移交管理 贷后管理 贷款审批管理
+
+test_ned003:
+  - id: test_ned001.1
+    detail: 进件管理子菜单校验
+    screenshot: jjgl_submemus
+    check:
+      submenus: 贷款进度查询 复核信息查询 贷款转派管理 贷款归档管理
+  - id: test_ned001.2
+    detail: 贷款审批管理子菜单校验
+    screenshot: dkspgl_submemus
+    check:
+      submenus: 贷款审批 已审任务查询
+
+

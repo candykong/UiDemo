@@ -1,0 +1,1 @@
+[2023-12-14 16:33:36,036] [log.py|__console] [line:46] ERROR   : <pageObj.sbed.sbed_page.Sbed object at 0x10c03a370>页面中未能找到('xpath', "//span[text()='进件管理']")元素

@@ -1,0 +1,168 @@
+{
+  "uid" : "ca64d2c78a8d9601",
+  "name" : "test_search[casedata0]",
+  "fullName" : "testCase.test_01_sbed.test_01_jjgl.test_01_dkjdcx.Test_dkjdcx#test_search",
+  "historyId" : "94e16acc168461d1e4bfb1ed965906f3",
+  "time" : {
+    "start" : 1701762068435,
+    "stop" : 1701762068714,
+    "duration" : 279
+  },
+  "description" : "\n        检查高级查询字段是否完整\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    检查高级查询字段是否完整\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1701762065028,
+      "stop" : 1701762066667,
+      "duration" : 1639
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1701761980923,
+      "stop" : 1701761981349,
+      "duration" : 426
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "session_login",
+    "time" : {
+      "start" : 1701762010707,
+      "stop" : 1701762035669,
+      "duration" : 24962
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        检查高级查询字段是否完整\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c189991b5f1f2678",
+      "name" : "log",
+      "source" : "c189991b5f1f2678.txt",
+      "type" : "text/plain",
+      "size" : 375588
+    }, {
+      "uid" : "c8a0db84c5b000bd",
+      "name" : "stderr",
+      "source" : "c8a0db84c5b000bd.txt",
+      "type" : "text/plain",
+      "size" : 148
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "setup::0",
+    "time" : {
+      "start" : 1701762085979,
+      "stop" : 1701762088849,
+      "duration" : 2870
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "session_login::0",
+    "time" : {
+      "start" : 1701762092915,
+      "stop" : 1701762093245,
+      "duration" : 330
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "社保e贷-进件管理-贷款进度查询页面"
+  }, {
+    "name" : "story",
+    "value" : "检查高级查询字段是否完整"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('session_login')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCase.test_01_sbed.test_01_jjgl"
+  }, {
+    "name" : "suite",
+    "value" : "test_01_dkjdcx"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_dkjdcx"
+  }, {
+    "name" : "host",
+    "value" : "kongdeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "1684-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCase.test_01_sbed.test_01_jjgl.test_01_dkjdcx"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "casedata",
+    "value" : "{'id': 'test_dkjdcx003', 'detail': '高级搜索字段名称', 'screenshot': 'super_search', 'check': {'content': '手机号： 客户群体： 当前进度： 所属机构： 营销人： 申请时间： 至'}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('session_login')" ]
+  },
+  "source" : "ca64d2c78a8d9601.json",
+  "parameterValues" : [ "{'id': 'test_dkjdcx003', 'detail': '高级搜索字段名称', 'screenshot': 'super_search', 'check': {'content': '手机号： 客户群体： 当前进度： 所属机构： 营销人： 申请时间： 至'}}" ]
+}

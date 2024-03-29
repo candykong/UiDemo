@@ -1,0 +1,267 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert '进件管理 电调管理 贷后...理 业务配置 贷款审批管理' == '进件管理 电调管理 贷后...置 贷款审批管理 续贷管理'\n  Skipping 38 identical leading characters in diff, use -v to show\n  - 业务配置 贷款审批管理 续贷管理\n  ?            -----\n  + 业务配置 贷款审批管理",
+      "children" : [ {
+        "name" : "test_parentMenus[casedata0]",
+        "uid" : "6739da30efd8276a",
+        "parentUid" : "c9f2c9b10f0fbe649651c5a33a3ba356",
+        "status" : "failed",
+        "time" : {
+          "start" : 1702542765082,
+          "stop" : 1702542766085,
+          "duration" : 1003
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'test_sbed002.1', 'detail': '父菜单校验', 'screenshot': 'parent_memus', 'check': {'menus': '进件管理 电调管理 贷后管理 提额降息管理 预授信管理 异常管理 面审管理 业务配置 贷款审批管理 续贷管理'}}" ]
+      } ],
+      "uid" : "c9f2c9b10f0fbe649651c5a33a3ba356"
+    }, {
+      "name" : "AssertionError: assert '电调员管理 智能外呼查询...客户贷后电调 贷后电调复核' == '电调员管理 智能外呼查询...调 贷后电调复核 通话记录'\n  - 电调员管理 智能外呼查询 客户授信电调 客户用信电调 客户贷后电调 贷后电调复核 通话记录\n  ?                                         -----\n  + 电调员管理 智能外呼查询 客户授信电调 客户用信电调 客户贷后电调 贷后电调复核",
+      "children" : [ {
+        "name" : "test_subMenus[casedata1]",
+        "uid" : "dbaea92fa6fd4ba1",
+        "parentUid" : "652df401c1e75cc037da5c08e7ee4c7f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1702542766959,
+          "stop" : 1702542767738,
+          "duration" : 779
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'test_sbed001.2', 'detail': '电调管理子菜单校验', 'screenshot': 'dhgl_submemus', 'check': {'submenus': '电调员管理 智能外呼查询 客户授信电调 客户用信电调 客户贷后电调 贷后电调复核 通话记录'}}" ]
+      } ],
+      "uid" : "652df401c1e75cc037da5c08e7ee4c7f"
+    }, {
+      "name" : "AssertionError: assert '*珊' == '*'\n  - *\n  + *珊",
+      "children" : [ {
+        "name" : "test_toCustomerDetail[casedata0]",
+        "uid" : "33c39266b358e3ef",
+        "parentUid" : "f66350bdfd33cf0d180d2283b2132731",
+        "status" : "failed",
+        "time" : {
+          "start" : 1702542786143,
+          "stop" : 1702542811472,
+          "duration" : 25329
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'test_dkjdcx011', 'detail': '点击客户姓名进入对应客户详情页', 'screenshot': 'click_customer_name', 'data': {'baseQuery': '仲营营'}, 'check': {'content': '仲营营'}}" ]
+      } ],
+      "uid" : "f66350bdfd33cf0d180d2283b2132731"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.JavascriptException: Message: javascript error: Cannot read properties of undefined (reading 'click')\n  (Session info: chrome=115.0.5790.114)\nStacktrace:\n0   chromedriver                        0x0000000104ab86b8 chromedriver + 4937400\n1   chromedriver                        0x0000000104aafb73 chromedriver + 4901747\n2   chromedriver                        0x000000010466d616 chromedriver + 435734\n3   chromedriver                        0x0000000104672adf chromedriver + 457439\n4   chromedriver                        0x00000001046759bf chromedriver + 469439\n5   chromedriver                        0x00000001046f0bce chromedriver + 973774\n6   chromedriver                        0x00000001046d5012 chromedriver + 860178\n7   chromedriver                        0x00000001046efe76 chromedriver + 970358\n8   chromedriver                        0x00000001046d4de3 chromedriver + 859619\n9   chromedriver                        0x00000001046a2d7f chromedriver + 654719\n10  chromedriver                        0x00000001046a40de chromedriver + 659678\n11  chromedriver                        0x0000000104a742ad chromedriver + 4657837\n12  chromedriver                        0x0000000104a79130 chromedriver + 4677936\n13  chromedriver                        0x0000000104a7fdef chromedriver + 4705775\n14  chromedriver                        0x0000000104a7a05a chromedriver + 4681818\n15  chromedriver                        0x0000000104a4c92c chromedriver + 4495660\n16  chromedriver                        0x0000000104a97838 chromedriver + 4802616\n17  chromedriver                        0x0000000104a979b7 chromedriver + 4802999\n18  chromedriver                        0x0000000104aa899f chromedriver + 4872607\n19  libsystem_pthread.dylib             0x00007fff203788fc _pthread_start + 224\n20  libsystem_pthread.dylib             0x00007fff20374443 thread_start + 15",
+      "children" : [ {
+        "name" : "test_title[casedata0]",
+        "uid" : "d1fa802d7f49cf4e",
+        "parentUid" : "ff6b4fe58293e5c942b8dff60058c89b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1702542813988,
+          "stop" : 1702542813988,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'test_fhxxcx001', 'detail': '复核信息查询列表标题', 'screenshot': 'title', 'check': {'title': '复核信息查询'}}" ]
+      }, {
+        "name" : "test_baseQuery[casedata0]",
+        "uid" : "9d75e1ef3fdf167",
+        "parentUid" : "ff6b4fe58293e5c942b8dff60058c89b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1702542817015,
+          "stop" : 1702542817015,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'test_fhxxcx002', 'detail': '基础查询输入框', 'screenshot': 'base_search', 'check': {'content': '请输入姓名或身份证号'}}" ]
+      }, {
+        "name" : "test_search[casedata0]",
+        "uid" : "2684a66edd70a366",
+        "parentUid" : "ff6b4fe58293e5c942b8dff60058c89b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1702542817512,
+          "stop" : 1702542817512,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'test_fhxxcx003', 'detail': '高级搜索字段名称', 'screenshot': 'super_search', 'check': {'content': '手机号： 客户群体： 调查状态： 所属机构： 超时状态： 申请时间： 至'}}" ]
+      }, {
+        "name" : "test_searchCustomerOptions[casedata0]",
+        "uid" : "b36071055540a0e4",
+        "parentUid" : "ff6b4fe58293e5c942b8dff60058c89b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1702542817650,
+          "stop" : 1702542817650,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'test_fhxxcx004', 'detail': '高级搜索-客户群体下拉框', 'screenshot': 'search_customer_group', 'check': {'content': '贵宾名单群体 公职上班群体 个体工商户群体 私企上班群体 行内客户群体 城乡居民群体'}}" ]
+      }, {
+        "name" : "test_searchDqjdOptions[casedata0]",
+        "uid" : "5f1b3e25b7a51951",
+        "parentUid" : "ff6b4fe58293e5c942b8dff60058c89b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1702542817861,
+          "stop" : 1702542817861,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'test_fhxxcx005', 'detail': '高级搜索-调查状态下拉框', 'screenshot': 'search_invest_status', 'check': {'content': '待调查 调查通过 调查拒绝'}}" ]
+      }, {
+        "name" : "test_searchOverTimeStatusOptions[casedata0]",
+        "uid" : "14202ce48ac811b",
+        "parentUid" : "ff6b4fe58293e5c942b8dff60058c89b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1702542817979,
+          "stop" : 1702542817979,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'test_fhxxcx006', 'detail': '高级搜索-超时状态下拉框', 'screenshot': 'search_invest_status', 'check': {'content': '未超时 已超时'}}" ]
+      }, {
+        "name" : "test_searchApplytime[casedata0]",
+        "uid" : "a818cb4e00c57802",
+        "parentUid" : "ff6b4fe58293e5c942b8dff60058c89b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1702542818296,
+          "stop" : 1702542818296,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'test_fhxxcx007', 'detail': '高级搜索-开始时间和结束时间默认值', 'screenshot': 'search_apply_time', 'check': {'content': '代码自动获取最近90天开始和结束时间'}}" ]
+      }, {
+        "name" : "test_tableHeaders[casedata0]",
+        "uid" : "2232a2f41bb8727",
+        "parentUid" : "ff6b4fe58293e5c942b8dff60058c89b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1702542818460,
+          "stop" : 1702542818460,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'test_fhxxcx008', 'detail': '列表表头字段检查', 'screenshot': 'tableHeader', 'check': {'content': '姓名 身份证号 手机号 客户群体 客户经理 所属机构 调查状态 超时状态 授信额度(元) 申请时间'}}" ]
+      }, {
+        "name" : "test_searchReset[casedata0]",
+        "uid" : "308c3568e4ba2ce3",
+        "parentUid" : "ff6b4fe58293e5c942b8dff60058c89b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1702542818585,
+          "stop" : 1702542818585,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'test_fhxxcx009_1', 'detail': '搜索按钮检查', 'screenshot': 'search', 'data': {'baseQuery': '仲营营'}, 'check': {'content': '仲营营'}}" ]
+      }, {
+        "name" : "test_searchReset[casedata1]",
+        "uid" : "5d2e91b41f6cb301",
+        "parentUid" : "ff6b4fe58293e5c942b8dff60058c89b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1702542818706,
+          "stop" : 1702542818706,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'test_fhxxcx009_2', 'detail': '重置按钮检查', 'screenshot': 'reset', 'check': {'content': '各个查询框内容清空'}}" ]
+      }, {
+        "name" : "test_toCustomerDetail[casedata0]",
+        "uid" : "69534a09b3f25ad4",
+        "parentUid" : "ff6b4fe58293e5c942b8dff60058c89b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1702542818927,
+          "stop" : 1702542818927,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'test_fhxxcx010', 'detail': '点击客户姓名进入对应客户详情页', 'screenshot': 'click_customer_name', 'data': {'baseQuery': '仲营营'}, 'check': {'content': '仲营营'}}" ]
+      } ],
+      "uid" : "ff6b4fe58293e5c942b8dff60058c89b"
+    }, {
+      "name" : "AttributeError: 'NoneType' object has no attribute 'click'",
+      "children" : [ {
+        "name" : "test_accountInfo[casedata0]",
+        "uid" : "9f7438a381f89160",
+        "parentUid" : "4884d745fdded79903845cd5afab5bb0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1702542819051,
+          "stop" : 1702542819051,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'test_ned001.1', 'detail': '首页个人信息', 'screenshot': 'account_info', 'check': {'account': '孔志兵', 'org': '所属机构：海南省', 'phone': '手机号：13126552495'}}" ]
+      }, {
+        "name" : "test_parentMenus[casedata0]",
+        "uid" : "2b7bc9f66b0b8a6",
+        "parentUid" : "4884d745fdded79903845cd5afab5bb0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1702542850781,
+          "stop" : 1702542850781,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'test_ned002.1', 'detail': '父菜单校验', 'screenshot': 'parent_memus', 'check': {'menus': '进件管理 移交管理 贷后管理 贷款审批管理'}}" ]
+      }, {
+        "name" : "test_subMenus[casedata0]",
+        "uid" : "cd30cfdd8052ef7d",
+        "parentUid" : "4884d745fdded79903845cd5afab5bb0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1702542850804,
+          "stop" : 1702542850804,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'test_ned001.1', 'detail': '进件管理子菜单校验', 'screenshot': 'jjgl_submemus', 'check': {'submenus': '贷款进度查询 复核信息查询 贷款转派管理 贷款归档管理'}}" ]
+      }, {
+        "name" : "test_subMenus[casedata1]",
+        "uid" : "2331f1f4d6aaec1a",
+        "parentUid" : "4884d745fdded79903845cd5afab5bb0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1702542850822,
+          "stop" : 1702542850822,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'test_ned001.2', 'detail': '贷款审批管理子菜单校验', 'screenshot': 'dkspgl_submemus', 'check': {'submenus': '贷款审批 已审任务查询'}}" ]
+      } ],
+      "uid" : "4884d745fdded79903845cd5afab5bb0"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

@@ -1,0 +1,47 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "AttributeError: 'NoneType' object has no attribute 'text'",
+      "children" : [ {
+        "name" : "test_accountInfo[casedata0]",
+        "uid" : "344d86b7888d3dee",
+        "parentUid" : "75faf91e540a74d349bf51d4565a1ced",
+        "status" : "broken",
+        "time" : {
+          "start" : 1701762057700,
+          "stop" : 1701762057927,
+          "duration" : 227
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'test_sbed001.1', 'detail': '首页个人信息', 'screenshot': 'account_info', 'check': {'account': '孔志兵', 'org': '所属机构：海南省', 'phone': '手机号：13126552495'}}" ]
+      } ],
+      "uid" : "75faf91e540a74d349bf51d4565a1ced"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert '*珊' == '*'\n  - *\n  + *珊",
+      "children" : [ {
+        "name" : "test_toCustomerDetail[casedata0]",
+        "uid" : "4853c5b6a8179cf6",
+        "parentUid" : "f66350bdfd33cf0d180d2283b2132731",
+        "status" : "failed",
+        "time" : {
+          "start" : 1701762076375,
+          "stop" : 1701762085943,
+          "duration" : 9568
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'test_dkjdcx011', 'detail': '点击客户姓名进入对应客户详情页', 'screenshot': 'click_customer_name', 'data': {'baseQuery': '仲营营'}, 'check': {'content': '仲营营'}}" ]
+      } ],
+      "uid" : "f66350bdfd33cf0d180d2283b2132731"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

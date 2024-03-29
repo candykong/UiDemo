@@ -1,0 +1,226 @@
+- testinfo:
+    - id: test_fhxxcx001
+      title: 检查列表标题
+      info: 贷款进度查询列表标题
+  testcase:
+    - element_info: //span[text()='电调管理']/../following-sibling::ul//span[text()='客户授信电调']
+      find_type: xpath
+      operate_type: click()
+      info: 客户授信电调
+  check:
+    - element_info: el-tabs__item.is-top
+      find_type: class name
+      operate_type: text
+      info: 未分配列表 已分配列表
+
+- testinfo:
+    - id: test_fhxxcx002
+      title: 检查基础查询字段
+      info: 基础查询字段
+  testcase:
+    - element_info: el-input__inner
+      find_type: class name
+      order: 0
+      operate_type: send_keys
+      info: 基础查询输入框输入内容
+    - element_info: el-button.el-button--default.el-button--small
+      find_type: class name
+      operate_type: click()
+      info: 基础查询按钮
+  check:
+    - element_info: el-input__inner
+      find_type: class name
+      order: 0
+      operate_type: get_attribute("placeholder")
+      info: 基础查询默认文案
+    - element_info: el-input__inner
+      find_type: class name
+      order: 0
+      operate_type: get_attribute("value")
+      info: 输入文案后，输入框内容和输入的内容是否一致
+
+- testinfo:
+    - id: test_fhxxcx003
+      title: 检查高级搜索字段
+      info: 基础查询字段
+  check:
+    - element_info: el-form-item__label
+      find_type: class name
+      operate_type: text
+      info: 获取全部的高级搜索字段名称
+
+- testinfo:
+    - id: test_fhxxcx004
+      title: 客户群体下拉选项检查和选择某个具体的客户群体
+      info: 客户群体下拉框和输入框的值
+  testcase:
+    - element_info: //*[@id="app"]/section/section/main/section/div/div[1]/div[2]/form/div[2]/div[2]/div/div/div[1]/input
+      find_type: xpath
+      operate_type: click()
+      info: 点击客户群体下拉框
+  check:
+    - element_info: .el-select-dropdown__wrap
+      find_type: css selector
+      order: 3
+      operate_type: text
+      info: 获取客户群体下拉框父级
+    - element_info: .el-select-dropdown__item span
+      find_type: css selector
+      operate_type: text
+      info: 获取所有客户群体下拉框选项值
+
+
+- testinfo:
+    - id: test_fhxxcx005
+      title: 调查状态下拉选项检查和选择某个进度
+      info: 调查状态下拉框选项、调查状态输入框的值
+  testcase:
+    - element_info: //*[@id="app"]/section/section/main/section/div/div[1]/div[2]/form/div[2]/div[3]/div/div/div[1]/input
+      find_type: xpath
+      operate_type: click()
+      info: 调查状态下拉框
+    - element_info: el-input__inner
+      find_type: class name
+      order: 3
+      operate_type: send_keys
+      info: 高级查询-调查状态输入框
+  check:
+    - element_info: .el-select-dropdown__wrap
+      find_type: css selector
+      order:  3
+      operate_type: text
+      info: 获取调查状态下拉框父级
+    - element_info: .el-select-dropdown__item span
+      find_type: css selector
+      operate_type: text
+      info: 获取所有调查状态下拉框选项值
+
+- testinfo:
+    - id: test_fhxxcx006
+      title: 超时状态下拉选项检查和选择某个具体的超时状态
+      info: 超时状态下拉框和输入框的值
+  testcase:
+    - element_info: //*[@id="app"]/section/section/main/section/div/div[1]/div[2]/form/div[2]/div[5]/div/div/div[1]/input
+      find_type: xpath
+      operate_type: click()
+      info: 点击超时状态下拉框
+  check:
+    - element_info: .el-select-dropdown__wrap
+      find_type: css selector
+      order: 3
+      operate_type: text
+      info: 获取超时状态下拉框父级
+    - element_info: .el-select-dropdown__item span
+      find_type: css selector
+      operate_type: text
+      info: 获取所有超时状态下拉框选项值
+
+
+- testinfo:
+    - id: test_fhxxcx007
+      title: 检查高级查询-申请时间
+      info: 高级查询-申请时间
+  testcase:
+    - element_info: el-input__inner
+      find_type: class name
+      order: 6
+      operate_type: click()
+      info: 高级查询-申请时间-开始时间输入内容
+    - element_info: el-input__inner
+      find_type: class name
+      order: 7
+      operate_type: click()
+      info: 高级查询-申请时间-结束时间输入内容
+  check:
+    - element_info: el-input__inner
+      find_type: class name
+      order: 6
+      operate_type: get_attribute("value")
+      info: 高级查询-申请时间-开始时间
+    - element_info: el-input__inner
+      find_type: class name
+      order: 7
+      operate_type: get_attribute("value")
+      info: 高级查询-申请时间-结束时间
+
+
+- testinfo:
+    - id: test_fhxxcx008
+      title: 检查手机号查询字段
+      info: 高级查询-手机号
+  testcase:
+    - element_info: el-input__inner
+      find_type: class name
+      order: 1
+      operate_type: send_keys
+      info: 高级查询-手机号输入框输入内容
+  check:
+    - element_info: el-input__inner
+      find_type: class name
+      order: 1
+      operate_type: get_attribute("placeholder")
+      info: 获取高级查询-手机号输入框默认文案
+    - element_info: el-input__inner
+      find_type: class name
+      order: 1
+      operate_type: get_attribute("value")
+      info: 获取高级查询-手机号输入框的值
+
+- testinfo:
+    - id: test_fhxxcx009
+      title: 检查列表的表头字段
+      info: 列表的表头字段是否完整
+  check:
+    - element_info: el-table__header
+      find_type: class name
+      operate_type: text
+      info: 获取列表表头
+
+- testinfo:
+    - id: test_fhxxcx010
+      title: 检查重置、搜索按钮
+      info: 点击重置，会清空数据，重新查询所有数据，点击搜索，查询到相应的数据
+  testcase:
+    - element_info: //button[.//span[text()="重置"]]
+      find_type: xpath
+      operate_type: click()
+      info: 点击重置按钮
+    - element_info: //button[.//span[text()="搜索"]]
+      find_type: xpath
+      operate_type: click()
+      info: 点击搜索按钮
+  check:
+    - element_info: el-pagination__total
+      find_type: class name
+      operate_type: text
+      info: 列表总数为原来所有的数据
+    - element_info: el-input__inner
+      find_type: class name
+      operate_type: text
+      info: 所有查询输入框的内容都被清空
+
+- testinfo:
+    - id: test_fhxxcx011
+      title: 检查点击客户姓名，进入对应客户详情
+      info: 点击客户姓名，进入客户详情
+  testcase:
+    - element_info:  //tr[@class="el-table__row"][1]/td[1]
+      find_type: xpath
+      operate_type: click()
+      info: 点击列表中第一个客户姓名
+  check:
+    - element_info: //tr[@class="el-table__row"][1]/td[1]
+      find_type: xpath
+      operate_type: text
+      info: 获取列表中第一个客户姓名
+    - element_info: customer__name
+      find_type: class name
+      operate_type: text
+      info: 获取详情页中客户姓名
+
+
+
+
+
+
+

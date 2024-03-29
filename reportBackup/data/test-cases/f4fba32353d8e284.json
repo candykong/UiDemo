@@ -1,0 +1,140 @@
+{
+  "uid" : "f4fba32353d8e284",
+  "name" : "test_accountInfo[casedata0]",
+  "fullName" : "testCase.test_sbed.Test_sbed#test_accountInfo",
+  "historyId" : "a09761eb8f0364bf93de867dbc9f9711",
+  "time" : {
+    "start" : 1692064146472,
+    "stop" : 1692064157333,
+    "duration" : 10861
+  },
+  "description" : "\n        从应用中心进入社保e贷，检查标题\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    从应用中心进入社保e贷，检查标题\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1692064124586,
+      "stop" : 1692064124670,
+      "duration" : 84
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "to_sbed",
+    "time" : {
+      "start" : 1692064124670,
+      "stop" : 1692064146464,
+      "duration" : 21794
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        从应用中心进入社保e贷，检查标题\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "48db065ae0894029",
+      "name" : "log",
+      "source" : "48db065ae0894029.txt",
+      "type" : "text/plain",
+      "size" : 342979
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "to_sbed::0",
+    "time" : {
+      "start" : 1692064161156,
+      "stop" : 1692064161416,
+      "duration" : 260
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "社保e贷页面"
+  }, {
+    "name" : "story",
+    "value" : "检查社保e贷首页个人信息"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('to_sbed')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_sbed"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_sbed"
+  }, {
+    "name" : "host",
+    "value" : "kongdeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "1533-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCase.test_sbed"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "casedata",
+    "value" : "{'id': 'test_sbed001.1', 'detail': '首页个人信息', 'screenshot': 'account_info', 'check': {'account': '孔志兵', 'org': '所属机构：海南省', 'phone': '手机号：18326552495'}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "235dc3d701db421e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1692063329356,
+        "stop" : 1692063340878,
+        "duration" : 11522
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('to_sbed')" ]
+  },
+  "source" : "f4fba32353d8e284.json",
+  "parameterValues" : [ "{'id': 'test_sbed001.1', 'detail': '首页个人信息', 'screenshot': 'account_info', 'check': {'account': '孔志兵', 'org': '所属机构：海南省', 'phone': '手机号：18326552495'}}" ]
+}

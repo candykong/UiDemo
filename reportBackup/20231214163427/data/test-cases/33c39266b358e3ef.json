@@ -1,0 +1,176 @@
+{
+  "uid" : "33c39266b358e3ef",
+  "name" : "test_toCustomerDetail[casedata0]",
+  "fullName" : "testCase.test_01_sbed.test_01_jjgl.test_01_dkjdcx.Test_dkjdcx#test_toCustomerDetail",
+  "historyId" : "27f3cd4372725ebd299d5dfe8f3339fe",
+  "time" : {
+    "start" : 1702542786143,
+    "stop" : 1702542811472,
+    "duration" : 25329
+  },
+  "description" : "\n        检查点击客户姓名是否正常进入该客户详情页\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    检查点击客户姓名是否正常进入该客户详情页\n    :return:\n</code></pre>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '*珊' == '*'\n  - *\n  + *珊",
+  "statusTrace" : "self = <test_01_dkjdcx.Test_dkjdcx object at 0x10bef47c0>\ncasedata = {'check': {'content': '仲营营'}, 'data': {'baseQuery': '仲营营'}, 'detail': '点击客户姓名进入对应客户详情页', 'id': 'test_dkjdcx011', ...}\nrequest = <FixtureRequest for <Function test_toCustomerDetail[casedata0]>>\n\n    @allure.story(\"检查点击客户姓名是否正常进入该客户详情页\")\n    @pytest.mark.parametrize('casedata',testData.get_testcase(\"test_dkjdcx012\"))\n    def test_toCustomerDetail(self,casedata,request):\n        \"\"\"\n        检查点击客户姓名是否正常进入该客户详情页\n        :return:\n        \"\"\"\n        log.info(\"当前执行测试用例ID-> {0} ; 测试点-> {1}\".format(casedata['id'],casedata['detail']))\n        self.driver(request)\n        dkjdcx = Dkjdcx(self.driver)\n        # dkjdcx.input_baseQuery(casedata['data']['baseQuery'])\n        dkjdcx.searchButton_click()\n        time.sleep(5)\n        col_name = dkjdcx.get_col_first_customer_name()\n        dkjdcx.click_col_first_customer_name()\n        time.sleep(20)\n        name1 = dkjdcx.get_customer_name()\n>       assert col_name == \"*\" + name1[1:]\nE       AssertionError: assert '*珊' == '*'\nE         - *\nE         + *珊\n\ntestCase/test_01_sbed/test_01_jjgl/test_01_dkjdcx.py:197: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1702542684497,
+      "stop" : 1702542684590,
+      "duration" : 93
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "session_login",
+    "time" : {
+      "start" : 1702542716804,
+      "stop" : 1702542741545,
+      "duration" : 24741
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1702542772371,
+      "stop" : 1702542773868,
+      "duration" : 1497
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        检查点击客户姓名是否正常进入该客户详情页\n        :return:\n        ",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert '*珊' == '*'\n  - *\n  + *珊",
+    "statusTrace" : "self = <test_01_dkjdcx.Test_dkjdcx object at 0x10bef47c0>\ncasedata = {'check': {'content': '仲营营'}, 'data': {'baseQuery': '仲营营'}, 'detail': '点击客户姓名进入对应客户详情页', 'id': 'test_dkjdcx011', ...}\nrequest = <FixtureRequest for <Function test_toCustomerDetail[casedata0]>>\n\n    @allure.story(\"检查点击客户姓名是否正常进入该客户详情页\")\n    @pytest.mark.parametrize('casedata',testData.get_testcase(\"test_dkjdcx012\"))\n    def test_toCustomerDetail(self,casedata,request):\n        \"\"\"\n        检查点击客户姓名是否正常进入该客户详情页\n        :return:\n        \"\"\"\n        log.info(\"当前执行测试用例ID-> {0} ; 测试点-> {1}\".format(casedata['id'],casedata['detail']))\n        self.driver(request)\n        dkjdcx = Dkjdcx(self.driver)\n        # dkjdcx.input_baseQuery(casedata['data']['baseQuery'])\n        dkjdcx.searchButton_click()\n        time.sleep(5)\n        col_name = dkjdcx.get_col_first_customer_name()\n        dkjdcx.click_col_first_customer_name()\n        time.sleep(20)\n        name1 = dkjdcx.get_customer_name()\n>       assert col_name == \"*\" + name1[1:]\nE       AssertionError: assert '*珊' == '*'\nE         - *\nE         + *珊\n\ntestCase/test_01_sbed/test_01_jjgl/test_01_dkjdcx.py:197: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8b5b9db2281fc4e4",
+      "name" : "log",
+      "source" : "8b5b9db2281fc4e4.txt",
+      "type" : "text/plain",
+      "size" : 190543
+    }, {
+      "uid" : "bb4989430aa5e75c",
+      "name" : "stderr",
+      "source" : "bb4989430aa5e75c.txt",
+      "type" : "text/plain",
+      "size" : 169
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "session_login::0",
+    "time" : {
+      "start" : 1702542850838,
+      "stop" : 1702542851307,
+      "duration" : 469
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setup::0",
+    "time" : {
+      "start" : 1702542811493,
+      "stop" : 1702542813975,
+      "duration" : 2482
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "检查点击客户姓名是否正常进入该客户详情页"
+  }, {
+    "name" : "feature",
+    "value" : "社保e贷-进件管理-贷款进度查询页面"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('session_login')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCase.test_01_sbed.test_01_jjgl"
+  }, {
+    "name" : "suite",
+    "value" : "test_01_dkjdcx"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_dkjdcx"
+  }, {
+    "name" : "host",
+    "value" : "kongdeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "21763-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCase.test_01_sbed.test_01_jjgl.test_01_dkjdcx"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "casedata",
+    "value" : "{'id': 'test_dkjdcx011', 'detail': '点击客户姓名进入对应客户详情页', 'screenshot': 'click_customer_name', 'data': {'baseQuery': '仲营营'}, 'check': {'content': '仲营营'}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "@pytest.mark.usefixtures('session_login')" ]
+  },
+  "source" : "33c39266b358e3ef.json",
+  "parameterValues" : [ "{'id': 'test_dkjdcx011', 'detail': '点击客户姓名进入对应客户详情页', 'screenshot': 'click_customer_name', 'data': {'baseQuery': '仲营营'}, 'check': {'content': '仲营营'}}" ]
+}

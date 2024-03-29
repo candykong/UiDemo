@@ -1,0 +1,80 @@
+test_fhxxcx001:
+  - id: test_fhxxcx001
+    detail: 复核信息查询列表标题
+    screenshot: title
+    check:
+      title: 复核信息查询
+
+test_fhxxcx002:
+  - id: test_fhxxcx002
+    detail: 基础查询输入框
+    screenshot: base_search
+    check:
+      content: 请输入姓名或身份证号
+
+test_fhxxcx003:
+  - id: test_fhxxcx003
+    detail: 高级搜索字段名称
+    screenshot: super_search
+    check:
+      content: 手机号： 客户群体： 调查状态： 所属机构： 超时状态： 申请时间： 至
+
+test_fhxxcx004:
+  - id: test_fhxxcx004
+    detail: 高级搜索-客户群体下拉框
+    screenshot: search_customer_group
+    check:
+      content: 贵宾名单群体 公职上班群体 个体工商户群体 私企上班群体 行内客户群体 城乡居民群体
+
+test_fhxxcx005:
+  - id: test_fhxxcx005
+    detail: 高级搜索-调查状态下拉框
+    screenshot: search_invest_status
+    check:
+      content: 待调查 调查通过 调查拒绝
+
+test_fhxxcx006:
+  - id: test_fhxxcx006
+    detail: 高级搜索-超时状态下拉框
+    screenshot: search_invest_status
+    check:
+      content: 未超时 已超时
+
+test_fhxxcx007:
+  - id: test_fhxxcx007
+    detail: 高级搜索-开始时间和结束时间默认值
+    screenshot: search_apply_time
+    check:
+      content: 代码自动获取最近90天开始和结束时间
+
+test_fhxxcx008:
+  - id: test_fhxxcx008
+    detail: 列表表头字段检查
+    screenshot: tableHeader
+    check:
+      content: 姓名 身份证号 手机号 客户群体 客户经理 所属机构 调查状态 超时状态 授信额度(元) 申请时间
+
+test_fhxxcx009:
+  - id: test_fhxxcx009_1
+    detail: 搜索按钮检查
+    screenshot: search
+    data:
+      baseQuery: 仲营营
+    check:
+      content: 仲营营
+  - id: test_fhxxcx009_2
+    detail: 重置按钮检查
+    screenshot: reset
+    check:
+      content: 各个查询框内容清空
+
+
+test_fhxxcx010:
+  - id: test_fhxxcx010
+    detail: 点击客户姓名进入对应客户详情页
+    screenshot: click_customer_name
+    data:
+      baseQuery: 仲营营
+    check:
+      content: 仲营营
+

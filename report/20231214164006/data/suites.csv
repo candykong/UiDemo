@@ -1,0 +1,41 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Dec 14 16:39:13 CST 2023","Thu Dec 14 16:39:14 CST 2023","965","testcase.test_01_sbed.test_01_jjgl","test_01_dkjdcx","Test_dkjdcx","","","test_searchCustomerOptions[casedata0]","
+        检查客户群体下拉选项是否完整
+        :return:
+        "
+"passed","Thu Dec 14 16:39:13 CST 2023","Thu Dec 14 16:39:13 CST 2023","411","testcase.test_01_sbed.test_01_jjgl","test_01_dkjdcx","Test_dkjdcx","","","test_search[casedata0]","
+        检查高级查询字段是否完整
+        :return:
+        "
+"passed","Thu Dec 14 16:39:16 CST 2023","Thu Dec 14 16:39:16 CST 2023","72","testcase.test_01_sbed.test_01_jjgl","test_01_dkjdcx","Test_dkjdcx","","","test_tableHeaders[casedata0]","
+        检查表头字段是否完整
+        :return:
+        "
+"passed","Thu Dec 14 16:39:11 CST 2023","Thu Dec 14 16:39:13 CST 2023","1618","testcase.test_01_sbed.test_01_jjgl","test_01_dkjdcx","Test_dkjdcx","","","test_title[casedata0]","
+        检查标题
+        :return:
+        "
+"passed","Thu Dec 14 16:39:13 CST 2023","Thu Dec 14 16:39:13 CST 2023","255","testcase.test_01_sbed.test_01_jjgl","test_01_dkjdcx","Test_dkjdcx","","","test_baseQuery[casedata0]","
+        检查基础查询输入框默认文案
+        :return:
+        "
+"passed","Thu Dec 14 16:39:16 CST 2023","Thu Dec 14 16:39:22 CST 2023","5491","testcase.test_01_sbed.test_01_jjgl","test_01_dkjdcx","Test_dkjdcx","","","test_searchReset[casedata0]","
+        检查搜索功能是否正常，重置后查询输入框是否被清空
+        :return:
+        "
+"passed","Thu Dec 14 16:39:14 CST 2023","Thu Dec 14 16:39:15 CST 2023","845","testcase.test_01_sbed.test_01_jjgl","test_01_dkjdcx","Test_dkjdcx","","","test_searchDqjdOptions[casedata0]","
+        检查当前进度下拉选项是否完整
+        :return:
+        "
+"failed","Thu Dec 14 16:39:22 CST 2023","Thu Dec 14 16:39:47 CST 2023","25302","testcase.test_01_sbed.test_01_jjgl","test_01_dkjdcx","Test_dkjdcx","","","test_toCustomerDetail[casedata0]","
+        检查点击客户姓名是否正常进入该客户详情页
+        :return:
+        "
+"passed","Thu Dec 14 16:39:22 CST 2023","Thu Dec 14 16:39:22 CST 2023","266","testcase.test_01_sbed.test_01_jjgl","test_01_dkjdcx","Test_dkjdcx","","","test_searchReset[casedata1]","
+        检查搜索功能是否正常，重置后查询输入框是否被清空
+        :return:
+        "
+"passed","Thu Dec 14 16:39:15 CST 2023","Thu Dec 14 16:39:16 CST 2023","1012","testcase.test_01_sbed.test_01_jjgl","test_01_dkjdcx","Test_dkjdcx","","","test_searchApplytime[casedata0]","
+        检查高级搜索-开始时间和结束时间默认时间是否正确
+        :return:
+        "

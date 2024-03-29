@@ -1,0 +1,18 @@
+testinfo:
+      - id: test_login001
+        title: 登录测试
+        info: 打开登录页
+testcase:
+      - element_info: //input[@placeholder='请输入账号']
+        find_type: xpath
+        operate_type: send_keys
+        info: 请输入账号
+      - element_info: //input[@placeholder='请输入密码']
+        find_type: xpath
+        operate_type: send_keys
+        info: 请输入密码
+      - element_info: button.el-button.loginBtn
+        find_type: css selector
+        operate_type: click
+        info: 登录
+

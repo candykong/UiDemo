@@ -1,0 +1,8 @@
+[2023-12-14 16:28:28,452] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_sbed001.1 ; 测试点-> 首页个人信息
+[2023-12-14 16:28:29,378] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_sbed002.1 ; 测试点-> 父菜单校验
+[2023-12-14 16:28:30,019] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_sbed001.1 ; 测试点-> 进件管理子菜单校验
+[2023-12-14 16:29:04,836] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_sbed001.2 ; 测试点-> 电调管理子菜单校验
+[2023-12-14 16:29:18,007] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_sbed001.3 ; 测试点-> 贷后管理子菜单校验
+[2023-12-14 16:29:18,942] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_sbed001.4 ; 测试点-> 异常管理子菜单校验
+[2023-12-14 16:29:19,879] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_sbed001.5 ; 测试点-> 业务配置子菜单校验
+[2023-12-14 16:29:20,377] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_sbed001.6 ; 测试点-> 贷款审批管理子菜单校验

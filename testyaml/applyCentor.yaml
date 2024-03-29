@@ -1,0 +1,23 @@
+testinfo:
+      - id: test_applyCentor001
+        title: 应用中心各个应用跳转检查
+        info: 登录后进入系统首页
+testcase:
+      - element_info: //div[@class='box-item-title' and text()='社宝e贷']
+        find_type: xpath
+        operate_type: click
+        info: 社宝e贷中心
+      - element_info: //div[@class='box-item-title' and text()='农e贷']
+        find_type: xpath
+        operate_type: click
+        info: 农e贷应用中心
+check:
+      - element_info: (//div[@class='menu-title']/span)[1]
+        find_type: xpath
+        operate_type: text
+        info: 社保e贷应用中心标题
+      - element_info: (//div[@class='menu-title']/span)[1]
+        find_type: xpath
+        operate_type: text
+        info: 农e贷应用中心标题
+

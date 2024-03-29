@@ -1,0 +1,1 @@
+[2023-12-14 16:34:10,706] [log.py|__console] [line:46] ERROR   : <pageObj.applyCentor_page.ApplyCentor object at 0x10c14a460>页面中未能找到('xpath', "//div[@class='box-item-title' and text()='农e贷']")元素

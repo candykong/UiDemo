@@ -1,0 +1,8 @@
+[2023-12-14 16:29:03,609] [log.py|__console] [line:46] ERROR   : <pageObj.sbed.sbed_page.Sbed object at 0x111767700>页面中未能找到('xpath', "//span[text()='进件管理']/../following-sibling::ul//span")元素
+[2023-12-14 16:29:17,722] [log.py|__console] [line:46] ERROR   : <pageObj.sbed.sbed_page.Sbed object at 0x111763520>页面中未能找到('xpath', "//span[text()='电调管理']/../following-sibling::ul//span")元素
+[2023-12-14 16:29:18,029] [log.py|__console] [line:46] ERROR   : <pageObj.sbed.sbed_page.Sbed object at 0x111764430>页面中未能找到('xpath', "//span[text()='贷后管理']")元素
+[2023-12-14 16:29:18,951] [log.py|__console] [line:46] ERROR   : <pageObj.sbed.sbed_page.Sbed object at 0x113adba60>页面中未能找到('xpath', "//span[text()='异常管理']")元素
+[2023-12-14 16:29:19,900] [log.py|__console] [line:46] ERROR   : <pageObj.sbed.sbed_page.Sbed object at 0x113bcd160>页面中未能找到('xpath', "//span[text()='业务配置']")元素
+[2023-12-14 16:29:20,703] [log.py|__console] [line:46] ERROR   : <pageObj.applyCentor_page.ApplyCentor object at 0x113a1f220>页面中未能找到('xpath', "//div[@class='box-item-title' and text()='社宝e贷']")元素
+[2023-12-14 16:29:21,021] [log.py|__console] [line:46] ERROR   : <pageObj.applyCentor_page.ApplyCentor object at 0x113842850>页面中未能找到('xpath', "//div[@class='box-item-title' and text()='社宝e贷']")元素
+[2023-12-14 16:29:21,548] [log.py|__console] [line:46] ERROR   : <pageObj.applyCentor_page.ApplyCentor object at 0x113a508e0>页面中未能找到('xpath', "//div[@class='box-item-title' and text()='农e贷']")元素

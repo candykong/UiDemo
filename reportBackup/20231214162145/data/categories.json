@@ -1,0 +1,77 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert '进件管理 电调管理 贷后...理 业务配置 贷款审批管理' == '进件管理 电调管理 贷后...置 贷款审批管理 续贷管理'\n  Skipping 38 identical leading characters in diff, use -v to show\n  - 业务配置 贷款审批管理 续贷管理\n  ?            -----\n  + 业务配置 贷款审批管理",
+      "children" : [ {
+        "name" : "test_parentMenus[casedata0]",
+        "uid" : "4e657b4c06ecc8e6",
+        "parentUid" : "c9f2c9b10f0fbe649651c5a33a3ba356",
+        "status" : "failed",
+        "time" : {
+          "start" : 1702542023270,
+          "stop" : 1702542023575,
+          "duration" : 305
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'test_sbed002.1', 'detail': '父菜单校验', 'screenshot': 'parent_memus', 'check': {'menus': '进件管理 电调管理 贷后管理 提额降息管理 预授信管理 异常管理 面审管理 业务配置 贷款审批管理 续贷管理'}}" ]
+      } ],
+      "uid" : "c9f2c9b10f0fbe649651c5a33a3ba356"
+    }, {
+      "name" : "AssertionError: assert '电调员管理 智能外呼查询...客户贷后电调 贷后电调复核' == '电调员管理 智能外呼查询...调 贷后电调复核 通话记录'\n  - 电调员管理 智能外呼查询 客户授信电调 客户用信电调 客户贷后电调 贷后电调复核 通话记录\n  ?                                         -----\n  + 电调员管理 智能外呼查询 客户授信电调 客户用信电调 客户贷后电调 贷后电调复核",
+      "children" : [ {
+        "name" : "test_subMenus[casedata1]",
+        "uid" : "ab8b83e29ff883a8",
+        "parentUid" : "652df401c1e75cc037da5c08e7ee4c7f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1702542024320,
+          "stop" : 1702542025244,
+          "duration" : 924
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'test_sbed001.2', 'detail': '电调管理子菜单校验', 'screenshot': 'dhgl_submemus', 'check': {'submenus': '电调员管理 智能外呼查询 客户授信电调 客户用信电调 客户贷后电调 贷后电调复核 通话记录'}}" ]
+      } ],
+      "uid" : "652df401c1e75cc037da5c08e7ee4c7f"
+    }, {
+      "name" : "AssertionError: assert '*珊' == '*'\n  - *\n  + *珊",
+      "children" : [ {
+        "name" : "test_toCustomerDetail[casedata0]",
+        "uid" : "ca31043d38aa2766",
+        "parentUid" : "f66350bdfd33cf0d180d2283b2132731",
+        "status" : "failed",
+        "time" : {
+          "start" : 1702542043354,
+          "stop" : 1702542068865,
+          "duration" : 25511
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'test_dkjdcx011', 'detail': '点击客户姓名进入对应客户详情页', 'screenshot': 'click_customer_name', 'data': {'baseQuery': '仲营营'}, 'check': {'content': '仲营营'}}" ]
+      } ],
+      "uid" : "f66350bdfd33cf0d180d2283b2132731"
+    }, {
+      "name" : "AssertionError: assert '*营营' == '*'\n  - *\n  + *营营",
+      "children" : [ {
+        "name" : "test_toCustomerDetail[casedata0]",
+        "uid" : "7e9c1e4d4581da23",
+        "parentUid" : "1f41850a3bfbd78e988a629cde8e8d72",
+        "status" : "failed",
+        "time" : {
+          "start" : 1702542085644,
+          "stop" : 1702542091906,
+          "duration" : 6262
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'test_fhxxcx010', 'detail': '点击客户姓名进入对应客户详情页', 'screenshot': 'click_customer_name', 'data': {'baseQuery': '仲营营'}, 'check': {'content': '仲营营'}}" ]
+      } ],
+      "uid" : "1f41850a3bfbd78e988a629cde8e8d72"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

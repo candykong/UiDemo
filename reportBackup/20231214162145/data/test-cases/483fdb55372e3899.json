@@ -1,0 +1,168 @@
+{
+  "uid" : "483fdb55372e3899",
+  "name" : "test_searchApplytime[casedata0]",
+  "fullName" : "testCase.test_01_sbed.test_01_jjgl.test_02_fhxxcx.Test_fhxxcx#test_searchApplytime",
+  "historyId" : "3dcbe76ebc1f86b7e42470f142bdc708",
+  "time" : {
+    "start" : 1702542078912,
+    "stop" : 1702542079813,
+    "duration" : 901
+  },
+  "description" : "\n        检查高级搜索-开始时间和结束时间默认时间是否正确\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    检查高级搜索-开始时间和结束时间默认时间是否正确\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "session_login",
+    "time" : {
+      "start" : 1702541974826,
+      "stop" : 1702542000131,
+      "duration" : 25305
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1702542071279,
+      "stop" : 1702542073407,
+      "duration" : 2128
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1702541922876,
+      "stop" : 1702541922977,
+      "duration" : 101
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        检查高级搜索-开始时间和结束时间默认时间是否正确\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e150609b2e1bfbba",
+      "name" : "log",
+      "source" : "e150609b2e1bfbba.txt",
+      "type" : "text/plain",
+      "size" : 971032
+    }, {
+      "uid" : "aa82b55b7bdd5a1f",
+      "name" : "stderr",
+      "source" : "aa82b55b7bdd5a1f.txt",
+      "type" : "text/plain",
+      "size" : 173
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "session_login::0",
+    "time" : {
+      "start" : 1702542098440,
+      "stop" : 1702542098822,
+      "duration" : 382
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setup::0",
+    "time" : {
+      "start" : 1702542092037,
+      "stop" : 1702542094405,
+      "duration" : 2368
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "检查高级搜索-开始时间和结束时间默认时间是否正确"
+  }, {
+    "name" : "feature",
+    "value" : "社保e贷-进件管理-复核信息查询页面"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('session_login')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCase.test_01_sbed.test_01_jjgl"
+  }, {
+    "name" : "suite",
+    "value" : "test_02_fhxxcx"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_fhxxcx"
+  }, {
+    "name" : "host",
+    "value" : "kongdeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "21168-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCase.test_01_sbed.test_01_jjgl.test_02_fhxxcx"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "casedata",
+    "value" : "{'id': 'test_fhxxcx007', 'detail': '高级搜索-开始时间和结束时间默认值', 'screenshot': 'search_apply_time', 'check': {'content': '代码自动获取最近90天开始和结束时间'}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('session_login')" ]
+  },
+  "source" : "483fdb55372e3899.json",
+  "parameterValues" : [ "{'id': 'test_fhxxcx007', 'detail': '高级搜索-开始时间和结束时间默认值', 'screenshot': 'search_apply_time', 'check': {'content': '代码自动获取最近90天开始和结束时间'}}" ]
+}

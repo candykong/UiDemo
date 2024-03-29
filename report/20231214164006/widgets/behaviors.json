@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "02cdaca3b392e1f69e2143312d4e6341",
+    "name" : "社保e贷-进件管理-贷款进度查询页面",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 8,
+      "unknown" : 0,
+      "total" : 9
+    }
+  } ]
+}

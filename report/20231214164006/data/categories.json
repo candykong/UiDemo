@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert '*珊' == '*'\n  - *\n  + *珊",
+      "children" : [ {
+        "name" : "test_toCustomerDetail[casedata0]",
+        "uid" : "b06c0fdc2bfd937b",
+        "parentUid" : "f66350bdfd33cf0d180d2283b2132731",
+        "status" : "failed",
+        "time" : {
+          "start" : 1702543162530,
+          "stop" : 1702543187832,
+          "duration" : 25302
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'test_dkjdcx011', 'detail': '点击客户姓名进入对应客户详情页', 'screenshot': 'click_customer_name', 'data': {'baseQuery': '仲营营'}, 'check': {'content': '仲营营'}}" ]
+      } ],
+      "uid" : "f66350bdfd33cf0d180d2283b2132731"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
